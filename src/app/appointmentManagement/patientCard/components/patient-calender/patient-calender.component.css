@@ -31,4 +31,8 @@
   .demo-inline-calendar-card {
     width: 100%; /* Aumenta el ancho del calendario para pantallas pequeñas */
   }
+  .schedule-container{
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
 }
