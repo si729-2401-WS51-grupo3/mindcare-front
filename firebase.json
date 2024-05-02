@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/daos-ws53-mindcare/browser",
+    "public": "dist/daos-codigo-mindcare",
     "ignore": [
       "firebase.json",
       "**/.*",
