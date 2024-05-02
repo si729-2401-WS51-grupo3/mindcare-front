@@ -1,22 +1,12 @@
 {
-  "students": [
+  "psychologist": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "age": 26,
-      "address": "Nowhere"
-    },
-    {
-      "id": 2,
-      "name": "Jason Bourne",
-      "age": 34,
-      "address": "Unknown"
-    },
-    {
-      "id": 3,
-      "name": "William Norton",
-      "age": 38,
-      "address": "One Secret Place"
+      "ID_Psychologist": 1,
+      "Name": "Romina",
+      "LastName": "Caceres",
+      "Phone": 934995419,
+      "Email": "mikamedic@hotmail.com",
+      "Image": "https://github.com/Dark7YT/MindCare-AppointmentManagement/assets/130580982/8d43cd33-b75e-4328-a35a-0d29b7c4fef6"
     }
   ]
 }

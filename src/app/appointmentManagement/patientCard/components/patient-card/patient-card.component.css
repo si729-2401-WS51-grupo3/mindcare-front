@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+.example-card {
+  max-width: 350px;
+  height: 700px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  display: inline-block;
+  flex-grow: 0; /* Esto hace que el componente no crezca para llenar el espacio extra */
+}
+
+/* Resto del código... */
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+mat-card-title {
+  font-weight: bold; /* Hace que los títulos estén en negrita */
+  font-family: 'Nunito', sans-serif; /* Cambia la tipografía a Nunito */
+}
+
+mat-card-subtitle {
+  margin-bottom: 15px;
+}

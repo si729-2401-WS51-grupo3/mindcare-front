@@ -1,0 +1,46 @@
+.icono-pacientes {
+  width: 35px;
+  height: 25px;
+}
+.icono-calendar{
+  width: 28px;
+  height: 25px;
+}
+.icono-camara{
+  width: 35px;
+  height: 25px;
+}
+.icono-mensaje{
+  width: 30px;
+  height: 28px;
+}
+.icono-finanzas{
+  width: 35px;
+  height: 35px;
+}
+.icono-configuracion{
+  width: 25px;
+  height:25px;
+}
+.icono-notas{
+  width: 20px;
+  height: 25px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-right: 15%;
+}
+
+app-patient-card {
+  flex-grow: 0; /* Esto hace que el componente no crezca para llenar el espacio extra */
+  margin: 0; /* Esto elimina el margen alrededor del componente */
+  width: auto; /* Esto hace que el ancho de los elementos sea igual al del contenido */
+}
+
+app-patient-calender {
+  flex-grow: 0; /* Esto hace que el componente no crezca para llenar el espacio extra */
+  margin: 0; /* Esto elimina el margen alrededor del componente */
+  width: auto; /* Esto hace que el ancho de los elementos sea igual al del contenido */
+}

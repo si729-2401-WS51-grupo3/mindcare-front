@@ -1,0 +1,106 @@
+<mat-tab-group class="vertical-tabs" animationDuration="0ms">
+  <mat-tab class="switch" label="Psicólogo">
+    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="center">
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-pacientes" src="https://github.com/aksoonie/mindcare-db/assets/134560396/88cc1678-c496-4575-ae36-de5f07c27265" alt="pacientes">
+        </ng-template>
+        <!-- vista de los pacientes -->
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-calendar" src="https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b" alt="calendario">
+        </ng-template>
+        <!-- vista del calendario -->
+        <app-psychologist-calender></app-psychologist-calender>
+        <app-psychologist-checkbox></app-psychologist-checkbox>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-camara" src="https://github.com/aksoonie/mindcare-db/assets/134560396/e7d82f4a-d3a2-45d4-ac34-a0417b2bb4cc" alt="reuniones">
+        </ng-template>
+        <!-- vista del reuniones -->
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-mensaje" src="https://github.com/aksoonie/mindcare-db/assets/134560396/942481c5-1120-4f20-a2b5-7e252429b667" alt="Mensajes">
+        </ng-template>
+        <!-- vista de la mensajes-->
+
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-finanzas" src="https://github.com/aksoonie/mindcare-db/assets/134560396/d9a6b7de-c0d0-4944-9d95-2cf481848d7f" alt="finanzas">
+        </ng-template>
+        <!-- vista de los finanzas-->
+
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-configuracion" src="https://github.com/aksoonie/mindcare-db/assets/134560396/175bbaf6-db14-4ddb-af89-71b37d99e401" alt="configuracion">
+        </ng-template>
+        <!-- vista de los configuracion-->
+
+      </mat-tab>
+
+    </mat-tab-group>
+  </mat-tab>
+
+
+  <mat-tab class="switch" label="Paciente">
+    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="center">
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-psicologos" src="https://github.com/aksoonie/mindcare-db/assets/134560396/88cc1678-c496-4575-ae36-de5f07c27265" alt="pacientes">
+        </ng-template>
+        <!-- vista de los pacientes -->
+        <div class="flex-container">
+          <app-patient-card></app-patient-card>
+          <app-patient-calender></app-patient-calender>
+        </div>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-calendar" src="https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b" alt="calendario">
+        </ng-template>
+        <!-- vista del calendario -->
+
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-camara" src="https://github.com/aksoonie/mindcare-db/assets/134560396/e7d82f4a-d3a2-45d4-ac34-a0417b2bb4cc" alt="camara">
+        </ng-template>
+        <!-- vista del reuniones -->
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-mensaje" src="https://github.com/aksoonie/mindcare-db/assets/134560396/942481c5-1120-4f20-a2b5-7e252429b667" alt="mensajes">
+        </ng-template>
+        <!-- vista de la mensajes-->
+
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-finanzas" src="https://github.com/aksoonie/mindcare-db/assets/134560396/d9a6b7de-c0d0-4944-9d95-2cf481848d7f" alt="finanzas">
+        </ng-template>
+        <!-- vista de los finanzas-->
+
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-notas" src="https://github.com/aksoonie/mindcare-db/assets/134560396/af426a68-1711-4a9a-89db-71f0d59ffbe7" alt="notas">
+        </ng-template>
+        <!-- vista de los notas-->
+
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <img class="icono-configuracion" src="https://github.com/aksoonie/mindcare-db/assets/134560396/175bbaf6-db14-4ddb-af89-71b37d99e401" alt="configuracion">
+        </ng-template>
+        <!-- vista de los configuracion-->
+
+      </mat-tab>
+    </mat-tab-group>
+  </mat-tab>
+
+</mat-tab-group>
