@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-.card-patients-box {
+.card-psychologist-box {
   margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-right: 4em;
 }
-.patient-card {
+.psychologist-card {
   max-width: 350px;
   width: 100%;
   margin: 10px;

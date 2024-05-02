@@ -2,10 +2,10 @@ import {Component, Input} from '@angular/core';
 import {MatCard} from "@angular/material/card";
 import {MatCardModule} from '@angular/material/card';
 import {NgForOf} from "@angular/common";
-import {PatientsApiService} from "../../services/patients-api.service";
 import {PatientEntity} from "../../model/patient.entity";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatInput} from "@angular/material/input";
+import {SearchandmatchApiService} from "../../services/searchandmatch-api.service";
 
 
   @Component({
@@ -19,9 +19,9 @@ import {MatInput} from "@angular/material/input";
     @Input() pacientes: Array<PatientEntity> = [];
     filteredPacientes: Array<PatientEntity> = [];
 
-    constructor(private patientsApiService: PatientsApiService) {}
+    constructor(private searchandmatchApiService: SearchandmatchApiService) {}
     ngOnInit(): void {
-      this.patientsApiService.getPatients().subscribe((data: any) => {
+      this.searchandmatchApiService.getPatients().subscribe((data: any) => {
         this.pacientes = data;
         this.filteredPacientes = [...this.pacientes];
       });
@@ -32,7 +32,4 @@ import {MatInput} from "@angular/material/input";
         patient.Name.toLowerCase().includes(filterValue) || patient.LastName.toLowerCase().includes(filterValue)
       );
     }
-
-    protected readonly PatientEntity = PatientEntity;
-
   }
