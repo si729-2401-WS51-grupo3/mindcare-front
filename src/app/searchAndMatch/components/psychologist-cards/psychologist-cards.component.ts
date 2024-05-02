@@ -1,12 +1,10 @@
 import {Component, Input} from '@angular/core';
-import {MatCard} from "@angular/material/card";
-import {MatCardModule} from '@angular/material/card';
+import {MatCard, MatCardModule} from "@angular/material/card";
 import {NgForOf} from "@angular/common";
-import {PatientEntity} from "../../model/patient.entity";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatInput} from "@angular/material/input";
+import {PatientEntity} from "../../model/patient.entity";
 import {SearchandmatchApiService} from "../../services/searchandmatch-api.service";
-
 @Component({
   selector: 'app-psychologist-cards',
   standalone: true,
