@@ -1,0 +1,31 @@
+<div class="lista-citas">
+  <div class="encabezado">
+    <img class="icono-calendar" src="https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b" alt="calendario">
+    <h1 class="tittle">Citas</h1>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="card-citas-box">
+    <mat-card class="citas-card" *ngFor="let cita of filteredCitas">
+      <mat-card-header>
+        <mat-card-subtitle>Psicologia Pediatrica</mat-card-subtitle>
+        <mat-card-title>{{ cita.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Información: </p>
+        <ul>
+          <li>{{ cita.date }}</li>
+          <li>{{ cita.hour }}</li>
+          <li>{{ cita.status }}</li>
+          <li>{{ cita.patient_name }}</li>
+          <li>{{ cita.type_office }}</li>
+        </ul>
+        <mat-divider></mat-divider>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>REPROGRAMAR</button>
+        <button mat-button>PAGAR</button>
+        <button mat-button>ANULAR CITA</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
