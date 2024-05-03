@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "e064",
+      "fullName": "Loquendo",
+      "email": "loquendo@gmail.com",
+      "password": "123",
+      "instituteName": "faz"
+    },
+    {
+      "id": "cccb",
+      "fullName": "Laura",
+      "email": "laura@gmail.com",
+      "password": "123",
+      "instituteName": "LAL"
+    },
+    {
+      "id": "bc97",
+      "fullName": "EliasYauri",
+      "email": "elgolloyp@gmail.com",
+      "password": "gOLLITOES1",
+      "instituteName": "UPC"
+    }
+  ]
+}
