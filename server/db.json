@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "f14b",
+      "fullName": "tumama",
+      "email": "tumama@gmail.com",
+      "password": "123",
+      "instituteName": "123"
+    },
+    {
+      "id": "8766",
+      "fullName": "awdawd",
+      "email": "awdawdw@adad",
+      "password": "adawd",
+      "instituteName": "awdawd"
+    },
+    {
+      "id": "e064",
+      "fullName": "Loquendo",
+      "email": "loquendo@gmail.com",
+      "password": "123",
+      "instituteName": "faz"
+    }
+  ]
+}
