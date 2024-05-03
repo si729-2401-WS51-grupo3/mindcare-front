@@ -5,7 +5,17 @@
   "projects": {
     "mindcare-front": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -49,13 +59,7 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true,
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.development.ts"
-                }
-              ]
+              "sourceMap": true
             }
           },
           "defaultConfiguration": "production"
@@ -101,6 +105,6 @@
     }
   },
   "cli": {
-    "analytics": "7bf7cbd4-5bbe-482f-af50-abe25e6003ea"
+    "analytics": "efa335dd-7f02-4d5e-8b2f-2b733ccf7097"
   }
 }
