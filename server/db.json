@@ -1,22 +1,78 @@
 {
-  "students": [
+  "citas": [
     {
       "id": 1,
-      "name": "John Doe",
-      "age": 26,
-      "address": "Nowhere"
+      "name": "Dr. Romina Caceres",
+      "date": "23 de febrero 2024",
+      "hour": "9:00 AM",
+      "status":"Pendiente De Confirmar" ,
+      "patient_name":"Barbara Susana Quezada Portalatino",
+      "type_office":"Consultorio Virtual"
     },
     {
       "id": 2,
-      "name": "Jason Bourne",
-      "age": 34,
-      "address": "Unknown"
+      "name": "Dr. Jimena Diaz",
+      "date": "15 de junio 2024",
+      "hour": "3:00 PM",
+      "status":"Pagar" ,
+      "patient_name":"Barbara Susana Quezada Portalatino",
+      "type_office":"Consultorio Virtual"
     },
     {
       "id": 3,
-      "name": "William Norton",
-      "age": 38,
-      "address": "One Secret Place"
+      "name": "Dr. Alison Parker",
+      "date": "15 de octubre 2024",
+      "hour": "9:00 AM",
+      "status":"Pagar" ,
+      "patient_name":"Barbara Susana Quezada Portalatino",
+      "type_office":"Consultorio Virtual"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Adriano Cruz",
+      "date": "15 de octubre 2024",
+      "hour": "10:00 AM",
+      "status":"Pagar" ,
+      "patient_name":"Barbara Susana Quezada Portalatino",
+      "type_office":"Consultorio Virtual"
+    }
+  ],
+  "reunionesPsicologo": [
+    {
+      "id": 1,
+      "name": "Alison Gomez",
+      "date": "23 de febrero 2024",
+      "hour": "9:00 AM",
+      "status":"Pendiente De Confirmar" ,
+      "patient_name":"Barbara Susana Quezada Portalatino",
+      "type_office":"Consultorio Virtual"
+    },
+    {
+      "id": 2,
+      "name": "Jair Castillo",
+      "date": "15 de junio 2024",
+      "hour": "3:00 PM",
+      "status":"Pagar" ,
+      "patient_name":"Barbara Susana Quezada Portalatino",
+      "type_office":"Consultorio Virtual"
+    },
+    {
+      "id": 3,
+      "name": "Paola Diaz",
+      "date": "15 de octubre 2024",
+      "hour": "9:00 AM",
+      "status":"Pagar" ,
+      "patient_name":"Barbara Susana Quezada Portalatino",
+      "type_office":"Consultorio Virtual"
+    },
+    {
+      "id": 4,
+      "name": "Ariana Estrada",
+      "date": "15 de octubre 2024",
+      "hour": "10:00 AM",
+      "status":"Pagar" ,
+      "patient_name":"Barbara Susana Quezada Portalatino",
+      "type_office":"Consultorio Virtual"
     }
   ]
 }
