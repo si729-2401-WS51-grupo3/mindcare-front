@@ -1,22 +1,13 @@
 {
-  "students": [
+  "information-patient": [
     {
       "id": 1,
-      "name": "John Doe",
-      "age": 26,
-      "address": "Nowhere"
-    },
-    {
-      "id": 2,
-      "name": "Jason Bourne",
-      "age": 34,
-      "address": "Unknown"
-    },
-    {
-      "id": 3,
-      "name": "William Norton",
-      "age": 38,
-      "address": "One Secret Place"
+      "name": "Alison Gomez",
+      "age": "19 años",
+      "email": "alisongomezqy@hotmail.com",
+      "dni": "758953412",
+      "phone": "935 789 111",
+      "image": "https://github.com/si729-2401-WS51-grupo3/documentation/assets/133830443/21bc0aa7-9875-4dc4-970d-472dbb94f8e3"
     }
   ]
 }

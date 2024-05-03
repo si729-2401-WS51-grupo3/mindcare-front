@@ -1,0 +1,21 @@
+<h1 class="gestion-notas">Gestión de Notas</h1>
+<hr class="linea">
+<mat-card class="example-card" *ngFor="let psychologist of psychologists">
+  <img mat-card-image src="{{psychologist.image}}" alt="{{psychologist.name}}" class="example-header-image">
+  <mat-card-content>
+    <mat-card-title>Nombres:</mat-card-title>
+    <mat-card-subtitle>{{psychologist.name}} {{psychologist.name}}</mat-card-subtitle>
+
+    <mat-card-title>Edad:</mat-card-title>
+    <mat-card-subtitle>{{ psychologist.age }}</mat-card-subtitle>
+
+    <mat-card-title>Correo:</mat-card-title>
+    <mat-card-subtitle>{{ psychologist.email }}</mat-card-subtitle>
+
+    <mat-card-title>DNI:</mat-card-title>
+    <mat-card-subtitle>{{ psychologist.dni }}</mat-card-subtitle>
+
+    <mat-card-title>Telefono:</mat-card-title>
+    <mat-card-subtitle>{{ psychologist.phone }}</mat-card-subtitle>
+  </mat-card-content>
+</mat-card>
