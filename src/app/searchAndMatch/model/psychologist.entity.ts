@@ -1,13 +1,13 @@
 export class PatientEntity {
-  ID_Psychologist: number;
-  Name:string;
-  LastName:string;
-  photo: string;
+  id: number;
+  name:string;
+  lastName:string;
+  photoUrl: string;
 
   constructor() {
-    this.ID_Psychologist=0;
-    this.Name='';
-    this.LastName='';
-    this.photo='';
+    this.id=0;
+    this.name='';
+    this.lastName='';
+    this.photoUrl='';
   }
 }

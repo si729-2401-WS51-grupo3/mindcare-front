@@ -26,7 +26,7 @@ export class PsychologistCardsComponent {
   applyFilter(event:Event) {
     const filterValue = (event.target as HTMLInputElement).value.trim().toLowerCase();
     this.filteredPsychologists = this.psychologists.filter(patient =>
-      patient.Name.toLowerCase().includes(filterValue) || patient.LastName.toLowerCase().includes(filterValue)
+      patient.name.toLowerCase().includes(filterValue) || patient.lastName.toLowerCase().includes(filterValue)
     );
   }
 }

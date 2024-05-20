@@ -6,15 +6,13 @@ import {environment} from "../../../environments/environment";
 @Injectable({
   providedIn: 'root'
 })
-export class SearchandmatchApiService {
+export class PatientService {
   private baseUrl = environment.serverBasePath;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+  }
 
   getPatients(): Observable<any> {
     return this.http.get(`${this.baseUrl}/patients`);
-  }
-  getPsychologists(): Observable<any> {
-    return this.http.get(`${this.baseUrl}/psychologists`);
   }
 }

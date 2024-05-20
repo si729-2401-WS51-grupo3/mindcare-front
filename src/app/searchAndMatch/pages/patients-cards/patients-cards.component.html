@@ -11,9 +11,9 @@
 
   <div class="card-patients-box">
     <mat-card class="patient-card" *ngFor="let patient of filteredPacientes">
-      <img src="{{patient.photo}}" alt="{{patient.Name}} {{patient.LastName}}">
+      <img src="{{patient.photoUrl}}" alt="{{patient.name}} {{patient.lastName}}">
       <mat-card-header>
-        <p><strong>Nombre: </strong> {{ patient.Name }} {{ patient.LastName }}</p>
+        <p><strong>Nombre: </strong> {{ patient.name }} {{ patient.lastName }}</p>
       </mat-card-header>
     </mat-card>
   </div>

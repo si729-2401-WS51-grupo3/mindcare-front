@@ -11,9 +11,9 @@
 
   <div class="card-psychologist-box">
     <mat-card class="psychologist-card" *ngFor="let psychologist of filteredPsychologists">
-      <img src="{{psychologist.photo}}" alt="{{psychologist.Name}} {{psychologist.LastName}}">
+      <img src="{{psychologist.photoUrl}}" alt="{{psychologist.name}} {{psychologist.lastName}}">
       <mat-card-header>
-        <p><strong>Nombre: </strong> {{ psychologist.Name }} {{ psychologist.LastName }}</p>
+        <p><strong>Nombre: </strong> {{ psychologist.name }} {{ psychologist.lastName }}</p>
       </mat-card-header>
     </mat-card>
   </div>

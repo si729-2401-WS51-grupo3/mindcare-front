@@ -27,7 +27,7 @@ export class PatientsCardsComponent {
   applyFilter(event:Event) {
     const filterValue = (event.target as HTMLInputElement).value.trim().toLowerCase();
     this.filteredPacientes = this.pacientes.filter(patient =>
-      patient.Name.toLowerCase().includes(filterValue) || patient.LastName.toLowerCase().includes(filterValue)
+      patient.name.toLowerCase().includes(filterValue) || patient.lastName.toLowerCase().includes(filterValue)
     );
   }
 }

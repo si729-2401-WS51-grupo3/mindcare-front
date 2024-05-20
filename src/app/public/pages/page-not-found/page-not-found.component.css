@@ -1,0 +1,17 @@
+.page-background{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:lightseagreen;
+}
+button{
+  margin-left: 1rem;
+  border-radius: 1em;
+  border-style: none;
+  color:snow;
+  font-size: large;
+  padding: 0.8rem;
+  background-color: lightseagreen;
+}

@@ -1,1 +1,7 @@
-<app-header-content></app-header-content>
+<mat-toolbar style="background-color: white;" class="toolbar">
+  <ng-container *ngFor="let option of options">
+    <img mat-button [routerLink]="option.path" [src]="option.icon" alt="logo">
+  </ng-container>
+  <language-switcher></language-switcher>
+</mat-toolbar>
+<router-outlet></router-outlet>

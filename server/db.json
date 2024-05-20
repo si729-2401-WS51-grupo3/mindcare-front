@@ -1,0 +1,141 @@
+{
+  "psychologists": [
+    {
+      "id": 1,
+      "name": "Ana",
+      "lastName": "García",
+      "email": "ana.garcia@example.com",
+      "dni": "12345678A",
+      "phone": "+34123456789",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/442649e9-164c-45b7-a58d-65146e0b886e"
+    },
+    {
+      "id": 2,
+      "name": "Juan",
+      "lastName": "Martínez",
+      "email": "juan.martinez@example.com",
+      "dni": "87654321B",
+      "phone": "+34123456790",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/3d6261f4-4d5f-4475-9216-a7658ac4719f"
+    },
+    {
+      "id": 3,
+      "name": "María",
+      "lastName": "López",
+      "email": "maria.lopez@example.com",
+      "dni": "12348765C",
+      "phone": "+34123456791",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/82af9c27-f11b-43d4-8ca5-4a1f8ac9ce85"
+    },
+    {
+      "id": 4,
+      "name": "Carlos",
+      "lastName": "Rodríguez",
+      "email": "carlos.rodriguez@example.com",
+      "dni": "87651234D",
+      "phone": "+34123456792",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/5bbf6d9b-9b43-4f0e-9d45-d3a2d48c4415"
+    },
+    {
+      "id": 5,
+      "name": "Laura",
+      "lastName": "Pérez",
+      "email": "laura.perez@example.com",
+      "dni": "12347654E",
+      "phone": "+34123456793",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/5a2b9aa6-c2f2-40cb-9307-9f316f58eae7"
+    },
+    {
+      "id": 6,
+      "name": "Ramiro",
+      "lastName": "Pérez",
+      "email": "ramiro.perez@example.com",
+      "dni": "87654321F",
+      "phone": "+34123456794",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/ac72b4e2-b88d-4869-8aea-17d772b466ea"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "name": "Pedro",
+      "lastName": "Gómez",
+      "email": "pedro.gomez@example.com",
+      "dni": "12345678G",
+      "phone": "+34123456795",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/ac0860ec-a6b3-4aa4-adb1-d18c0cfd5876"
+    },
+    {
+      "id": 2,
+      "name": "Sofía",
+      "lastName": "Hernández",
+      "email": "sofia.hernandez@example.com",
+      "dni": "87654321H",
+      "phone": "+34123456796",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/c115d11e-3368-4a3d-83b4-2e84635c3258"
+    },
+    {
+      "id": 3,
+      "name": "Manuel",
+      "lastName": "Díaz",
+      "email": "manuel.diaz@example.com",
+      "dni": "12345678I",
+      "phone": "+34123456797",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/2d876353-abe7-402c-b73c-b2ce89565c62"
+    },
+    {
+      "id": 4,
+      "name": "Elena",
+      "lastName": "Martín",
+      "email": "elena.martin@example.com",
+      "dni": "87654321J",
+      "phone": "+34123456798",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/2c094efc-bd23-4ad5-bf56-af71b02a8f9e"
+    },
+    {
+      "id": 5,
+      "name": "Julia",
+      "lastName": "López",
+      "email": "julia.lopez@example.com",
+      "dni": "12345678K",
+      "phone": "+34123456799",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/65fb0c44-ba9f-4bed-b144-fc3022b5e65a"
+    },
+    {
+      "id": 6,
+      "name": "Romina",
+      "lastName": "Carrasco",
+      "email": "romina.carrasco@example.com",
+      "dni": "87654321L",
+      "phone": "+34123456800",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/a0182f87-c4e1-4bb7-99ce-652ea93d830c"
+    },
+    {
+      "id": 7,
+      "name": "Julio",
+      "lastName": "Velasquez",
+      "email": "julio.velasquez@example.com",
+      "dni": "12345678M",
+      "phone": "+34123456801",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db/assets/134560396/cd2f5222-79bc-4e1a-8af0-f4214cdf5c28"
+    },
+    {
+      "id": 8,
+      "name": "Noah",
+      "lastName": "Santos",
+      "email": "noah.santos@example.com",
+      "dni": "87654321N",
+      "phone": "+34123456802",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db/assets/134560396/0f5b4eab-2c2d-4d8d-b0fb-c177328be624"
+    },
+    {
+      "id": 9,
+      "name": "Maria",
+      "lastName": "Del condor",
+      "email": "maria.delcondor@example.com",
+      "dni": "12345678O",
+      "phone": "+34123456803",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db/assets/134560396/fb1878f6-9fe3-4b32-9f5e-7e3f8c125f2e"
+    }
+  ]
+}
