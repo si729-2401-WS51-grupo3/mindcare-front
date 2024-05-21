@@ -3,14 +3,13 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 import { MatIconModule } from "@angular/material/icon";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
-import { LanguageSwitcherComponent } from "./public/pages/language-switcher/language-switcher.component";
 import { NgForOf } from "@angular/common";
-import {CustomTranslateModule} from "./public/pages/language-switcher/translate.module";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, MatToolbarModule, MatButtonModule, MatIconModule, LanguageSwitcherComponent, NgForOf, CustomTranslateModule],
+  imports: [RouterOutlet, RouterLink, MatToolbarModule, MatButtonModule, MatIconModule, NgForOf],
+           
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

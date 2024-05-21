@@ -1,6 +1,21 @@
 {
   "psychologists": [
     {
+      "ID_Psychologist": 1,
+      "Name": "Romina",
+      "LastName": "Caceres",
+      "Phone": 934995419,
+      "Email": "mikamedic@hotmail.com",
+      "Image": "https://github.com/Dark7YT/MindCare-AppointmentManagement/assets/130580982/8d43cd33-b75e-4328-a35a-0d29b7c4fef6"
+    }
+  ],
+  "dates": [
+    {
+      "id": 7,
+      "hour": "10:00 AM",
+      "psychologistName": "Camila",
+      "psychologistLast": "Peralta"
+
       "id": "1",
       "name": "Ana",
       "lastName": "García",
