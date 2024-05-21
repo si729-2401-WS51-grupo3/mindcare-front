@@ -10,16 +10,7 @@ import {CustomTranslateModule} from "./public/pages/language-switcher/translate.
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [
-    RouterOutlet,
-    RouterLink,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    LanguageSwitcherComponent,
-    NgForOf,
-    CustomTranslateModule // Importa aquí el módulo personalizado
-  ],
+  imports: [RouterOutlet, RouterLink, MatToolbarModule, MatButtonModule, MatIconModule, LanguageSwitcherComponent, NgForOf, CustomTranslateModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
@@ -30,18 +21,12 @@ export class AppComponent {
     { path: '/psychologist/patients', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/88cc1678-c496-4575-ae36-de5f07c27265'},
     { path: '/psychologist/calendar', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b'},
     { path: '/psychologist/meetings', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/e7d82f4a-d3a2-45d4-ac34-a0417b2bb4cc'},
-    { path: '/psychologist/messages', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/942481c5-1120-4f20-a2b5-7e252429b667'},
-    { path: '/psychologist/finance', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/d9a6b7de-c0d0-4944-9d95-2cf481848d7f'},
     { path: '/psychologist/settings', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/175bbaf6-db14-4ddb-af89-71b37d99e401'},
     //parte de patients
     { path: '/patient/psychologists', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/88cc1678-c496-4575-ae36-de5f07c27265'},
     { path: '/patient/calendar', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b'},
     { path: '/patient/meetings', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/e7d82f4a-d3a2-45d4-ac34-a0417b2bb4cc'},
-    { path: '/patient/messages', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/942481c5-1120-4f20-a2b5-7e252429b667'},
-    { path: '/patient/finance', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/d9a6b7de-c0d0-4944-9d95-2cf481848d7f'},
     { path: '/patient/notes', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/af426a68-1711-4a9a-89db-71f0d59ffbe7'},
     { path: '/patient/settings', title:'Psychologists Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/175bbaf6-db14-4ddb-af89-71b37d99e401'},
-
-  ]
+  ];
 }
-

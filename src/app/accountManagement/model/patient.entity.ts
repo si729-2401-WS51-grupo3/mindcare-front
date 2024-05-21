@@ -6,6 +6,10 @@ export class Patient {
   dni: string;
   phone: string;
   photoUrl: string;
+  occupation:string;
+  description:string;
+  gender:string;
+  birthday:string;
   constructor() {
     this.id = 0;
     this.name = '';
@@ -14,5 +18,9 @@ export class Patient {
     this.dni = '';
     this.phone = '';
     this.photoUrl = '';
+    this.occupation='';
+    this.description='';
+    this.gender='';
+    this.birthday='';
   }
 }

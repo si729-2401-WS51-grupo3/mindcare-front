@@ -23,7 +23,52 @@
   color: rgba(0, 0, 0, 0.6);
   margin-right: auto;
 }
+
 mat-divider {
   width: 85%;
   margin: 1.5em auto;
+}
+
+.card-user-box {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-datos-cuenta {
+  width: calc(50% - 20px);
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: large;
+}
+.photo-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-dato {
+  width: 90%;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  height: auto;
+  display: flex;
+}
+
+.card-dato i{
+  margin-left: auto;
+}
+.photo-user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

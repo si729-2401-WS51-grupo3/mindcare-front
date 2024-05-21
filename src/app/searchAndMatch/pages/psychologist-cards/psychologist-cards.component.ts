@@ -5,6 +5,7 @@ import {MatDividerModule} from "@angular/material/divider";
 import {MatInput} from "@angular/material/input";
 import {PatientEntity} from "../../model/patient.entity";
 import {SearchandmatchApiService} from "../../services/searchandmatch-api.service";
+import {PsychologistEntity} from "../../model/psychologist.entity";
 @Component({
   selector: 'app-psychologist-cards',
   standalone: true,
@@ -13,8 +14,8 @@ import {SearchandmatchApiService} from "../../services/searchandmatch-api.servic
   styleUrl: './psychologist-cards.component.css'
 })
 export class PsychologistCardsComponent {
-  @Input() psychologists: Array<PatientEntity> = [];
-  filteredPsychologists: Array<PatientEntity> = [];
+  @Input() psychologists: Array<PsychologistEntity> = [];
+  filteredPsychologists: Array<PsychologistEntity> = [];
 
   constructor(private searchandmatchApiService: SearchandmatchApiService) {}
   ngOnInit(): void {
@@ -25,8 +26,8 @@ export class PsychologistCardsComponent {
   }
   applyFilter(event:Event) {
     const filterValue = (event.target as HTMLInputElement).value.trim().toLowerCase();
-    this.filteredPsychologists = this.psychologists.filter(patient =>
-      patient.name.toLowerCase().includes(filterValue) || patient.lastName.toLowerCase().includes(filterValue)
+    this.filteredPsychologists = this.psychologists.filter(psychologist =>
+      psychologist.name.toLowerCase().includes(filterValue) || psychologist.lastName.toLowerCase().includes(filterValue)
     );
   }
 }

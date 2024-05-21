@@ -1,4 +1,4 @@
-export class PatientEntity {
+export class PsychologistEntity {
   id: number;
   name:string;
   lastName:string;
