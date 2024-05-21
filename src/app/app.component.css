@@ -1,0 +1,24 @@
+/* app.component.css */
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas si no hay suficiente espacio */
+}
+
+img {
+  height: 1.8em;
+  padding: 0.5em;
+}
+
+/* Estilos para pantallas con un ancho máximo de 600px */
+@media (max-width: 790px) {
+  .toolbar {
+    justify-content: space-around; /* Distribuye el espacio alrededor de los elementos de manera uniforme */
+  }
+
+  img {
+    height: 1.5em; /* Ajusta la altura para pantallas pequeñas */
+    padding: 0.3em; /* Ajusta el padding para pantallas pequeñas */
+  }
+}
