@@ -1,0 +1,20 @@
+<div class="lista-psychologist">
+  <div class="encabezado">
+    <img class="icono-pagina" src="https://github.com/aksoonie/mindcare-db/assets/134560396/f07d7029-1ada-4dd2-a87e-4f2e884d3b0d">
+    <h1 class="tittle">Psicólogos</h1>
+  </div>
+  <mat-divider></mat-divider>
+
+  <div class="card-filter">
+    <input matInput (keyup)="applyFilter($event)" placeholder="Busca psicologos">
+  </div>
+
+  <div class="card-psychologist-box">
+    <mat-card class="psychologist-card" *ngFor="let psychologist of filteredPsychologists">
+      <img src="{{psychologist.photoUrl}}" alt="{{psychologist.name}} {{psychologist.lastName}}">
+      <mat-card-header>
+        <p><strong>Nombre: </strong> {{ psychologist.name }} {{ psychologist.lastName }}</p>
+      </mat-card-header>
+    </mat-card>
+  </div>
+</div>

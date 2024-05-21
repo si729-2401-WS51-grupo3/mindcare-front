@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "daos-ws51-mind-care"
-  }
+    "default": "daos-ws51-searchandmatch",
+    "daos-WS51-searchAndMatch": "daos-ws51-searchandmatch"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

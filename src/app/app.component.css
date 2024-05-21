@@ -1,9 +1,15 @@
+
 /* app.component.css */
 
 .toolbar {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas si no hay suficiente espacio */
+  
+.toolbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; / Permite que los elementos se envuelvan en múltiples líneas si no hay suficiente espacio /
 }
 
 img {
@@ -20,5 +26,15 @@ img {
   img {
     height: 1.5em; /* Ajusta la altura para pantallas pequeñas */
     padding: 0.3em; /* Ajusta el padding para pantallas pequeñas */
+
+@media (max-width: 790px) {
+  .toolbar {
+    justify-content: space-around; / Distribuye el espacio alrededor de los elementos de manera uniforme /
+  }
+
+  img {
+    height: 1.5em; / Ajusta la altura para pantallas pequeñas /
+  padding: 0.3em; / Ajusta el padding para pantallas pequeñas */
+
   }
 }

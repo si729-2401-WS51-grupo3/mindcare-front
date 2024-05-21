@@ -9,6 +9,7 @@ import { NgForOf } from "@angular/common";
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, RouterLink, MatToolbarModule, MatButtonModule, MatIconModule, NgForOf],
+           
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

@@ -1,0 +1,10 @@
+{
+  "patients": {
+    "name": "Patients",
+    "path": "/patients"
+  },
+  "psychologists": {
+    "name": "Psychologists",
+    "path": "/psychologists"
+  }
+}
