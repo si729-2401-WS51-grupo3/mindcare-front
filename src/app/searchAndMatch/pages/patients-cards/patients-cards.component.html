@@ -1,0 +1,20 @@
+<div class="lista-pacientes">
+  <div class="encabezado">
+    <img class="icono-pagina" src="https://github.com/aksoonie/mindcare-db/assets/134560396/f07d7029-1ada-4dd2-a87e-4f2e884d3b0d">
+    <h1 class="tittle">Pacientes</h1>
+  </div>
+  <mat-divider></mat-divider>
+
+  <div class="card-filter">
+    <input matInput (keyup)="applyFilter($event)" placeholder="Busca pacientes">
+  </div>
+
+  <div class="card-patients-box">
+    <mat-card class="patient-card" *ngFor="let patient of filteredPacientes">
+      <img src="{{patient.photoUrl}}" alt="{{patient.name}} {{patient.lastName}}">
+      <mat-card-header>
+        <p><strong>Nombre: </strong> {{ patient.name }} {{ patient.lastName }}</p>
+      </mat-card-header>
+    </mat-card>
+  </div>
+</div>
