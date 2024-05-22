@@ -1,21 +1,6 @@
 {
   "psychologists": [
     {
-      "ID_Psychologist": 1,
-      "Name": "Romina",
-      "LastName": "Caceres",
-      "Phone": 934995419,
-      "Email": "mikamedic@hotmail.com",
-      "Image": "https://github.com/Dark7YT/MindCare-AppointmentManagement/assets/130580982/8d43cd33-b75e-4328-a35a-0d29b7c4fef6"
-    }
-  ],
-  "dates": [
-    {
-      "id": 7,
-      "hour": "10:00 AM",
-      "psychologistName": "Camila",
-      "psychologistLast": "Peralta"
-
       "id": "1",
       "name": "Ana",
       "lastName": "García",
@@ -75,9 +60,9 @@
       "id": "1",
       "name": "Pedro",
       "lastName": "Gómez",
-      "email": "pedro.gomez@hotmail.com",
+      "email": "pedo.pedito@hotmail.com",
       "dni": "12345678G",
-      "phone": "+34123456795",
+      "phone": "933935024",
       "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/ac0860ec-a6b3-4aa4-adb1-d18c0cfd5876",
       "occupation": "Ingeniero",
       "description": "Pedro es un ingeniero de software con más de 10 años de experiencia en la industria tecnológica.",
@@ -187,6 +172,14 @@
       "description": "Maria es una cientifica que realiza investigaciones en energías renovables.",
       "gender": "Femenino",
       "birthday": "1987-09-25"
+    }
+  ],
+  "dates": [
+    {
+      "id": "1",
+      "hour": "10:00 AM",
+      "psychologistName": "Camila",
+      "psychologistLast": "Peralta"
     }
   ]
 }
