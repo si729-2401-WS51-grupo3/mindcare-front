@@ -16,4 +16,3 @@ export class CitaEntity {
     this.type_office='';
   }
 }
-

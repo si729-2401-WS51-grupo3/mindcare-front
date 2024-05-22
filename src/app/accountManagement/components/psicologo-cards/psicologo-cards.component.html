@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="encabezado">
+    <img class="icono-camara" src="https://github.com/aksoonie/mindcare-db/assets/134560396/88cc1678-c496-4575-ae36-de5f07c27265" alt="people">
+    <h1 class="tittle">Mi cuenta</h1>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="form-container">
+    <div class="personal-data" *ngFor="let psicologo of psicologos">
+      <div class="contenedor-izquierda">
+        <h2>Datos Personales</h2>
+        <img src="https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/b710d3da-cf2b-4d9a-b1b4-c58b42dd7c20" alt="Profile Picture">
+        <p><strong>Nombre:</strong></p>
+        <div class="contenedor">
+        <p>{{ psicologo.name }}</p>
+        </div>
+        <p><strong>Fecha de Nacimiento:</strong></p>
+        <div class="contenedor">
+        <p>{{ psicologo.birth_date }}</p>
+        </div>
+          <p><strong>Género:</strong></p>
+        <div class="contenedor">
+        <p>{{ psicologo.gender }}</p>
+        </div>
+        </div>
+
+      <div class="contenedor-derecha">
+        <h2>Información Básica</h2>
+        <p><strong>Correo electrónico:</strong></p>
+        <div class="contenedor">
+          <p>{{ psicologo.email }}</p>
+        </div>
+        <p><strong>Teléfono:</strong></p>
+        <div class="contenedor">
+        <p>{{ psicologo.phone }}</p>
+        </div>
+        <p><strong>Ocupación:</strong></p>
+        <div class="contenedor">
+        <p>{{ psicologo.occupation }}</p>
+        </div>
+        <p><strong>Descripción:</strong></p>
+        <div class="contenedor">
+        <p>{{ psicologo.description }}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

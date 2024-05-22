@@ -11,10 +11,7 @@
 .imagen1{
   margin-left: 18%;
 }
-mat-divider {
-  width: 90%;
-  margin-left: 6%;
-}
+
 .content-card-general{
   display: flex;
   flex-wrap: wrap;
@@ -24,16 +21,17 @@ mat-divider {
   margin-left: 6%;
   margin-top: 2%;
 }
-
+mat-divider {
+  width: 90%;
+  margin-left: 6%;
+}
 .encabezado {
   display: flex;
   align-items: center;
   font-family: "Nunito", sans-serif;
   margin-left: 10%;
-
   margin-top:2em;
   margin-bottom: 1.5em;
-
 }
 .id-patient{
   align-content: center;

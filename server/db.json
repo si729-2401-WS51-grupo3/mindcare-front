@@ -74,5 +74,17 @@
       "patient_name":"Barbara Susana Quezada Portalatino",
       "type_office":"Consultorio Virtual"
     }
+  ],
+  "informacion_psicologo": [
+    {
+      "id": 1,
+      "name": "Alison Dorothea Gomez Swift",
+      "birth_date": "22 de julio de 1992",
+      "gender": "Mujer",
+      "email":"alisongomez14@outlook.com" ,
+      "phone":"845256897",
+      "occupation":"Psicoterapeutas",
+      "description":"Soy una psicoterapeuta licenciada con más de 10 años de experiencia en el campo de la salud mental. Especializada en Terapia Cognitivo-Conductual (TCC), me dedico a ayudar a mis pacientes a superar sus desafíos emocionales y mejorar su bienestar general. Trabajo con una variedad de problemas, incluyendo ansiedad, depresión, estrés, traumas y trastornos del estado de ánimo."
+    }
   ]
 }

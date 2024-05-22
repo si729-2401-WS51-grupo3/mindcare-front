@@ -1,19 +1,16 @@
 import { Injectable } from '@angular/core';
-import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
+import {Observable} from "rxjs";
 
 @Injectable({
   providedIn: 'root'
 })
-export class TherapymanagementApiService {
+export class AccountManagementApiService {
   private baseUrl = 'https://my-json-server.typicode.com/BarbaraQP15/mindcare-therapyManagement'
 
   constructor(private http: HttpClient) { }
 
-  getCitas(): Observable<any> {
-    return this.http.get(`${this.baseUrl}/citas`);
-  }
-  getReuniones(): Observable<any> {
-    return this.http.get(`${this.baseUrl}/reunionesPsicologo`);
+  getInfo(): Observable<any> {
+    return this.http.get(`${this.baseUrl}/informacion_psicologo`);
   }
 }

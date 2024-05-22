@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "daos-codigo-mindcare"
-  }
+    "default": "daos-ws51-therapymanagement",
+    "daos-ws51-therapymanagement": "daos-ws51-therapymanagement"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
