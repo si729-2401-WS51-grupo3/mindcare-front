@@ -72,3 +72,21 @@ mat-divider {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 790px) {
+  .card-user-box {
+    flex-direction: column;
+    width: 95%;
+  }
+  .card-datos-cuenta {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .photo-container {
+    width: 100px;
+    height: 100px;
+  }
+  .card-dato {
+    width: 100%;
+  }
+}

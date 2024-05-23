@@ -41,8 +41,7 @@
 
 mat-divider {
   width: 85%;
-  margin: auto;
-  margin-top:1.5em; margin-bottom: 1.5em;
+  margin: 1.5em auto;
 }
 .card-filter {
   background-color: rgba(107, 159, 159, 0.28);
@@ -50,14 +49,14 @@ mat-divider {
   padding: 15px 10px;
   width: 83%;
   border-bottom: 2px solid rgba(0, 0, 0, 0.65);
-  margin-left: auto; /* Alinear a la derecha */
+  margin-left: auto;
   margin-right: auto;
 }
 .card-filter input::placeholder{
   font-family: "Nunito", sans-serif;
   font-size: 25px;
   color: #939393;
-  transform: translateY(8px); /* Ajustar la posición vertical */
+  transform: translateY(8px);
 }
 .card-filter input {
   background-color: transparent;
@@ -66,5 +65,5 @@ mat-divider {
   width: 100%;
   box-sizing: border-box;
   height: 40px;
-  line-height: 40px; /* Ajusta la altura de línea igual a la altura del input */
+  line-height: 40px;
 }
