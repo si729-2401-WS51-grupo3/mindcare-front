@@ -1,10 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="finance-container">
+  <p class="title">Le mostramos los cobros que tiene:</p>
+  <div class="header" *ngFor="let patient of patients">
+    <p><strong>Nombres:</strong> {{patient.name}} | <strong>DNI:</strong> {{patient.dni}}</p>
+  </div>
+  <div class="patient-card" *ngFor="let patient of patients">
+    <div class="patient-info">
+      <img class="patient-image" [src]="patient.image" alt="{{patient.name}}">
+      <div class="info">
+        <p><strong class="info-title">Paciente</strong><br>{{patient.name}}</p>
+        <p><strong class="info-title">Fecha</strong><br>{{patient.date}}</p>
+        <p><strong class="info-title">Hora</strong><br>{{patient.time}}</p>
+        <p><strong class="info-title">Especialidad</strong><br>{{patient.treatment}}</p>
+        <p><strong class="info-title">Médico</strong><br>{{patient.doctor}}</p>
+        <p><strong class="info-title">Tipo de cita</strong><br>{{patient.appointment}}</p>
+      </div>
+      <div class="payment-info">
+        <p class="alert">Paga por adelantado y el dia de tu cita no<br>te preocupes por pagar al instante</p>
+        <p class="amount">Importe <br>&#83;&#47;{{patient.import}}</p>
+        <button mat-button class="pay-button">Pagar</button>
+      </div>
+    </div>
+  </div>
+</div>
