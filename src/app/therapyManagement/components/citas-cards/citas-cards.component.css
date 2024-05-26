@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.card-citas-box {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 4em;
+  font-family: "Nunito", sans-serif;
+  border-color: #000000; /* Agregar bordes redondeados */
+}
+.citas-card {
+  max-width: 350px;
+  width: 100%;
+  margin: 36px;
+  border-radius: 18px;
+  font-family: "Nunito", sans-serif;
+}
+mat-card-title{
+  color:#3B6767;
+}
+mat-card-subtitle{
+  color: #e9aba2;
+}
+mat-card-content{
+  color: #3B6767;
+}
+.encabezado {
+  margin-top:2em;
+  margin-bottom: 1.5em;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+.icono-calendar {
+  justify-self: left;
+  width: 50px;
+  height: 50px;
+}
+.tittle {
+  font-family: "Nunito", sans-serif;
+  margin-top: 0.3em;
+  margin-left: 0.5em;
+  font-size: xx-large;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: auto;
+  font-weight: bold;
+}
+
+mat-divider {
+  width: 85%;
+  margin: auto;
+  margin-top:1.5em;
+  margin-bottom: 1.5em;
+}
+mat-card-actions button {
+  font-family: "Nunito", sans-serif;
+  border-radius: 5px; /* Agregar bordes redondeados */
+  border-color: #ffffff; /* Agregar bordes redondeados */
+  color: #AD746C; /* Cambiar el color del texto a rosado */
+  margin-left: 1rem;
+  background-color: #ffffff; /* Cambiar el color de fondo a celeste cuando se pasa el cursor */
+}
+
+mat-card-actions button:hover {
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffff; /* Cambiar el color de fondo a celeste cuando se pasa el cursor */
+}
+
+mat-card-actions button:active {
+  font-family: "Nunito", sans-serif;
+  color: #AD746C; /* Cambiar el color del texto a rosado */
+  background-color: #fff1f1; /* Cambiar el color de fondo a azul oscuro cuando se presiona */
+}

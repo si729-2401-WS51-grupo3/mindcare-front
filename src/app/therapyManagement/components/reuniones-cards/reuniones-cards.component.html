@@ -1,0 +1,28 @@
+<div class="encabezado">
+  <img class="icono-camara" src="https://github.com/aksoonie/mindcare-db/assets/134560396/e7d82f4a-d3a2-45d4-ac34-a0417b2bb4cc" alt="reuniones">
+  <h1 class="tittle">Reuniones</h1>
+</div>
+<mat-divider></mat-divider>
+
+<div class="content-card-general">
+  <div class="perfil-card">
+    <img class="imagen1" src="https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/0311dfb2-e38b-49ad-b826-8534087f5e36">
+    <p class="name-patient">Barbara Susana Quezada Portalatino</p>
+    <p class="id-patient">#125589654</p>
+  </div>
+
+  <div class="lista-reuniones">
+    <h1>Programadas</h1>
+    <mat-divider></mat-divider>
+    <div class="card-reuniones-box">
+      <mat-card class="reuniones-card" *ngFor="let cita of citas">
+        <div class="contenedor-izquierda">
+          <p>{{ cita.name }}<br>{{ cita.hour }}</p>
+        </div>
+        <div class="contenedor-derecha">
+          <img src ="https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/389dbaa1-2ac0-4277-b61f-262a8c86e11c">
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</div>

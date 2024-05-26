@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {MatTab, MatTabGroup, MatTabLabel} from "@angular/material/tabs";
+
 import {PatientCardComponent} from "../../../TherapyDesign/patientCard/components/patient-card/patient-card.component";
 import {PatientNotesComponent} from "../../../TherapyDesign/patientNotes/components/patientNotes.component";
 import {PatientDocComponent} from "../../../TherapyDesign/patientDoc/components/patientDoc.component";
