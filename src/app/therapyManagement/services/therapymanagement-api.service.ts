@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
+import {environment} from "../../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
 export class TherapymanagementApiService {
-  private baseUrl = 'https://my-json-server.typicode.com/BarbaraQP15/mindcare-therapyManagement'
+  private baseUrl = environment.serverBasePath;
 
   constructor(private http: HttpClient) { }
 

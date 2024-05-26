@@ -6,11 +6,12 @@ import {MatInput} from "@angular/material/input";
 import {CitaEntity} from "../../model/cita.entity";
 import {TherapymanagementApiService} from "../../services/therapymanagement-api.service";
 import {MatProgressBar} from "@angular/material/progress-bar";
+import {MatButton} from "@angular/material/button";
 
 @Component({
   selector: 'app-citas-cards',
   standalone: true,
-  imports: [MatCard, MatCardModule, NgForOf, MatDividerModule, MatInput, MatProgressBar],
+  imports: [MatCard, MatCardModule, NgForOf, MatDividerModule, MatInput, MatProgressBar, MatButton],
   templateUrl: './citas-cards.component.html',
   styleUrl: './citas-cards.component.css'
 })
