@@ -181,5 +181,107 @@
       "psychologistName": "Camila",
       "psychologistLast": "Peralta"
     }
+  ],
+  "detail-course": [
+    {
+      "id": 1,
+      "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
+      "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
+      "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
+      "image3": "https://github.com/CodepaceOrganization/Informes/assets/133830443/445185ef-22aa-4d10-80df-f90ed2c3dc99",
+      "introduction": "Breve introducción del curso, qué cubrirá y cómo se desarrollará con el tiempo.",
+      "development": "Contenido completo del curso, tendrás acceso a videos informativos, cuestionarios que te ayudarán a reforzar lo aprendido, etc.",
+      "test": "Un examen final donde podrás aprobar tus habilidades y conocimientos que aprendiste a lo largo del curso.",
+      "goal1": "Comprender y aplicar correctamente los conceptos fundamentales de programación, como variables, operadores, estructuras de control, funciones, y arreglos.",
+      "goal2": "Adquirir experiencia práctica en el desarrollo de software, incluyendo la planificación, codificación, depuración, y pruebas de programas y aplicaciones.",
+      "goal3": "Construir proyectos prácticos, desde simples a complejos, para aplicar conocimientos teóricos en escenarios reales.",
+      "goal4": "Cultivar una mentalidad de aprendizaje continuo, capaz de adaptarse a las tendencias y cambios en tecnologías de programación.",
+      "goal5": "Desarrollar habilidades para analizar problemas, descomponerlos en componentes más pequeños, y proponer soluciones mediante la programación.",
+      "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
+    },
+    {
+      "id": 2,
+      "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
+      "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
+      "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
+      "image3": "https://github.com/CodepaceOrganization/Informes/assets/133830443/445185ef-22aa-4d10-80df-f90ed2c3dc99",
+      "introduction": "Breve introducción del curso, qué cubrirá y cómo se desarrollará con el tiempo.",
+      "development": "Contenido completo del curso, tendrás acceso a videos informativos, cuestionarios que te ayudarán a reforzar lo aprendido, etc.",
+      "test": "Un examen final donde podrás aprobar tus habilidades y conocimientos que aprendiste a lo largo del curso.",
+      "goal1": "Comprender y aplicar correctamente los conceptos fundamentales de programación, como variables, operadores, estructuras de control, funciones, y arreglos.",
+      "goal2": "Adquirir experiencia práctica en el desarrollo de software, incluyendo la planificación, codificación, depuración, y pruebas de programas y aplicaciones.",
+      "goal3": "Construir proyectos prácticos, desde simples a complejos, para aplicar conocimientos teóricos en escenarios reales.",
+      "goal4": "Cultivar una mentalidad de aprendizaje continuo, capaz de adaptarse a las tendencias y cambios en tecnologías de programación.",
+      "goal5": "Desarrollar habilidades para analizar problemas, descomponerlos en componentes más pequeños, y proponer soluciones mediante la programación.",
+      "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
+    },
+    {
+      "id": 3,
+      "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
+      "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
+      "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
+      "image3": "https://github.com/CodepaceOrganization/Informes/assets/133830443/445185ef-22aa-4d10-80df-f90ed2c3dc99",
+      "introduction": "Breve introducción del curso, qué cubrirá y cómo se desarrollará con el tiempo.",
+      "development": "Contenido completo del curso, tendrás acceso a videos informativos, cuestionarios que te ayudarán a reforzar lo aprendido, etc.",
+      "test": "Un examen final donde podrás aprobar tus habilidades y conocimientos que aprendiste a lo largo del curso.",
+      "goal1": "Comprender y aplicar correctamente los conceptos fundamentales de programación, como variables, operadores, estructuras de control, funciones, y arreglos.",
+      "goal2": "Adquirir experiencia práctica en el desarrollo de software, incluyendo la planificación, codificación, depuración, y pruebas de programas y aplicaciones.",
+      "goal3": "Construir proyectos prácticos, desde simples a complejos, para aplicar conocimientos teóricos en escenarios reales.",
+      "goal4": "Cultivar una mentalidad de aprendizaje continuo, capaz de adaptarse a las tendencias y cambios en tecnologías de programación.",
+      "goal5": "Desarrollar habilidades para analizar problemas, descomponerlos en componentes más pequeños, y proponer soluciones mediante la programación.",
+      "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
+    },
+    {
+      "id": 4,
+      "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
+      "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
+      "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
+      "image3": "https://github.com/CodepaceOrganization/Informes/assets/133830443/445185ef-22aa-4d10-80df-f90ed2c3dc99",
+      "introduction": "Breve introducción del curso, qué cubrirá y cómo se desarrollará con el tiempo.",
+      "development": "Contenido completo del curso, tendrás acceso a videos informativos, cuestionarios que te ayudarán a reforzar lo aprendido, etc.",
+      "test": "Un examen final donde podrás aprobar tus habilidades y conocimientos que aprendiste a lo largo del curso.",
+      "goal1": "Comprender y aplicar correctamente los conceptos fundamentales de programación, como variables, operadores, estructuras de control, funciones, y arreglos.",
+      "goal2": "Adquirir experiencia práctica en el desarrollo de software, incluyendo la planificación, codificación, depuración, y pruebas de programas y aplicaciones.",
+      "goal3": "Construir proyectos prácticos, desde simples a complejos, para aplicar conocimientos teóricos en escenarios reales.",
+      "goal4": "Cultivar una mentalidad de aprendizaje continuo, capaz de adaptarse a las tendencias y cambios en tecnologías de programación.",
+      "goal5": "Desarrollar habilidades para analizar problemas, descomponerlos en componentes más pequeños, y proponer soluciones mediante la programación.",
+      "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
+    }
+  ],
+  "information-patient": [
+    {
+      "id": 1,
+      "name": "Romina Caceres",
+      "age": "19 años",
+      "email": "alisongomezqy@hotmail.com",
+      "dni": "758953412",
+      "phone": "935 789 111",
+      "image": "https://github.com/si729-2401-WS51-grupo3/documentation/assets/133830443/21bc0aa7-9875-4dc4-970d-472dbb94f8e3"
+    }
+  ],
+  "information-doctor": [
+    {
+      "id": 1,
+      "name": "Alison Gomez",
+      "dni": "758945398",
+      "phone": "935 789 111"
+    }
+  ],
+  "information-patientfinance": [
+    {
+      "id": 1,
+      "name": "Alicia Ramirez Gonzales",
+      "age": "19 años",
+      "email": "alisongomezqy@hotmail.com",
+      "dni": "758953412",
+      "phone": "935 789 111",
+      "image": "https://github.com/si729-2401-WS51-grupo3/documentation/assets/133830443/f54a926c-c7f1-4f6c-b92e-53c46e8ea295",
+      "date": "07/05/2024",
+      "treatment": "Ansiedad",
+      "appointment": "Primera sesion",
+      "time": "9:00 AM",
+      "doctor": "Romina Caceres",
+      "import": "70"
+    }
   ]
 }
