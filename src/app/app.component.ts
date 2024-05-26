@@ -8,6 +8,7 @@ import { NgForOf } from "@angular/common";
 @Component({
   selector: 'app-root',
   standalone: true,
+
   imports: [RouterOutlet, RouterLink, MatToolbarModule, MatButtonModule, MatIconModule, NgForOf],
            
   templateUrl: './app.component.html',
