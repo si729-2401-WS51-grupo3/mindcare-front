@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "daos-ws51-therapy-design",
-    "staging": "daos-ws51-therapy-design"
+    "default": "daos-ws51-searchandmatch",
+    "daos-WS51-searchAndMatch": "daos-ws51-searchandmatch"
   },
   "targets": {},
   "etags": {},

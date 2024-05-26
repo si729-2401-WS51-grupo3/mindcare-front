@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+.demo-inline-calendar-card {
+  width: 160%; /* Aumenta este valor según sea necesario */
+  margin: 0 auto;
+}
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.example-disabled {
+  display: inline-block;
+}
+.schedule-container {
+  display: flex;
+  justify-content: flex-end; /* Añade espacio entre los elementos */
+}
+.schedule-morning .schedule-evening {
+  font-family: 'Nunito', sans-serif; /* Cambia la tipografía a Nunito */
+  flex: 1; /* Esto hace que los elementos crezcan para llenar el espacio extra */
+}
+.example-button-row {
+  display: flex;
+  flex-direction: row; /* Cambia la dirección a row para que los elementos estén en línea */
+  justify-content: space-between; /* Añade espacio entre los elementos */
+}
+
+/* Resto del código... */
+
+/* Consulta de medios para pantallas con un ancho máximo de 600px */
+@media (max-width: 790px) {
+  .demo-inline-calendar-card {
+    width: 100%; /* Aumenta el ancho del calendario para pantallas pequeñas */
+  }
+  .schedule-container{
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+}
