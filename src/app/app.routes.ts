@@ -14,7 +14,7 @@ export const routes: Routes = [
   { path: 'psychologist/calendar', component: PsychologistAccount},
   { path: 'psychologist/meetings', component: ReunionespsicologosCardsComponent},//!
   { path: 'psychologist/settings', component: PsychologistAccount},
-  //parte de patints
+  //parte de patients
   { path: 'patient/psychologists', component:  PsychologistAccount},
   { path: 'patient/calendar', component:  CitasCardsComponent},
   { path: 'patient/meetings', component:  ReunionesCardsComponent},//!

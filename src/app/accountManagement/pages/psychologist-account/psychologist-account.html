@@ -1,7 +1,8 @@
+<!-- psychologist-account.html -->
+
 <div class="user-account" *ngIf="psychologists">
   <div class="header">
-    <img class="page-icon"
-         src="https://github.com/aksoonie/mindcare-db/assets/134560396/175bbaf6-db14-4ddb-af89-71b37d99e401" alt="">
+    <img class="page-icon" src="https://github.com/aksoonie/mindcare-db/assets/134560396/175bbaf6-db14-4ddb-af89-71b37d99e401" alt="">
     <h1 class="tittle">Mi cuenta</h1>
   </div>
   <mat-divider></mat-divider>
@@ -15,15 +16,15 @@
       </div>
       <div class="user-data">
         <div class="dato-user">
-          Nombre: <br>
+          <strong>Nombre:</strong>
           <mat-card class="card-dato">{{psychologists?.name}}</mat-card>
         </div>
         <div class="dato-user">
-          Fecha de nacimiento: <br>
+          <strong>Fecha de nacimiento:</strong>
           <mat-card class="card-dato">{{psychologists.birth_date}}</mat-card>
         </div>
         <div class="dato-user">
-          Género: <br>
+          <strong>Género:</strong>
           <mat-card class="card-dato">{{psychologists.gender}}</mat-card>
         </div>
       </div>
@@ -31,44 +32,54 @@
     <mat-card class="card-datos-cuenta">
       <h2>Información básica</h2>
       <div *ngIf="editEmail; else viewEmail">
-        Correo:<br>
-        <mat-card class="card-dato">
-          <input [(ngModel)]="psychologists.email" type="email">
-        </mat-card>
-        <button (click)="saveEdit('email')">Guardar</button>
-        <button (click)="cancelEdit('email')">Cancelar</button>
+        <div class="dato-user">
+          <strong>Correo:</strong>
+          <mat-card class="card-dato">
+            <input [(ngModel)]="psychologists.email" type="email">
+          </mat-card>
+        </div>
+        <button mat-raised-button class="save-button" (click)="saveEdit('email')">Guardar</button>
+        <button mat-raised-button class="cancel-button" (click)="cancelEdit('email')">Cancelar</button>
       </div>
       <ng-template #viewEmail>
-        Correo:<br>
-        <mat-card class="card-dato">
-          {{psychologists.email}}
-          <i class="pen-icon fa-solid fa-pen" (click)="toggleEdit('email')"></i>
-        </mat-card>
+        <div class="dato-user">
+          <strong>Correo:</strong>
+          <mat-card class="card-dato">
+            {{psychologists.email}}
+            <i class="pen-icon fa-solid fa-pen" (click)="toggleEdit('email')"></i>
+          </mat-card>
+        </div>
       </ng-template>
       <div *ngIf="editPhone; else viewPhone">
-        Teléfono:<br>
-        <mat-card class="card-dato">
-          <input [(ngModel)]="psychologists.phone" type="tel">
-        </mat-card>
-        <button (click)="saveEdit('phone')">Guardar</button>
-        <button (click)="cancelEdit('phone')">Cancelar</button>
+        <div class="dato-user">
+          <strong>Teléfono:</strong>
+          <mat-card class="card-dato">
+            <input [(ngModel)]="psychologists.phone" type="tel">
+          </mat-card>
+        </div>
+        <button mat-raised-button class="save-button" (click)="saveEdit('phone')">Guardar</button>
+        <button mat-raised-button class="cancel-button" (click)="cancelEdit('phone')">Cancelar</button>
       </div>
       <ng-template #viewPhone>
-        Télefono:<br>
-        <mat-card class="card-dato">
-          {{psychologists.phone}}
-          <i class="pen-icon fa-solid fa-pen" (click)="toggleEdit('phone')"></i>
-        </mat-card>
+        <div class="dato-user">
+          <strong>Teléfono:</strong>
+          <mat-card class="card-dato">
+            {{psychologists.phone}}
+            <i class="pen-icon fa-solid fa-pen" (click)="toggleEdit('phone')"></i>
+          </mat-card>
+        </div>
       </ng-template>
-      <div class="dato-user">
-        Ocupación: <br>
-        <mat-card class="card-dato">{{psychologists.occupation}}</mat-card>
-      </div>
-      <div class="dato-user">
-        Descripción: <br>
-        <mat-card class="card-dato">{{psychologists.description}}</mat-card>
+      <div class="basic-info">
+        <div class="dato-user">
+          <strong>Ocupación:</strong>
+          <mat-card class="card-dato">{{psychologists.occupation}}</mat-card>
+        </div>
+        <div class="dato-user">
+          <strong>Descripción:</strong>
+          <mat-card class="card-dato">{{psychologists.description}}</mat-card>
+        </div>
       </div>
     </mat-card>
   </div>
-  <div *ngIf="!psychologists">Cargando datos del psicologo...</div>
+  <div *ngIf="!psychologists">Cargando datos del psicólogo...</div>
 </div>
