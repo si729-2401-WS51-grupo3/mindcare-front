@@ -60,7 +60,7 @@
       "id": "1",
       "name": "Pedro",
       "lastName": "Gómez",
-      "email": "pedo.pedito@hotmail.com",
+      "email": "Pedro@hotmail.com",
       "dni": "12345678G",
       "phone": "933935024",
       "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/ac0860ec-a6b3-4aa4-adb1-d18c0cfd5876",
@@ -184,7 +184,7 @@
   ],
   "detail-course": [
     {
-      "id": 1,
+      "id": "1",
       "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
       "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
       "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
@@ -200,7 +200,7 @@
       "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
     },
     {
-      "id": 2,
+      "id": "2",
       "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
       "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
       "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
@@ -216,7 +216,7 @@
       "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
     },
     {
-      "id": 3,
+      "id": "3",
       "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
       "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
       "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
@@ -232,7 +232,7 @@
       "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
     },
     {
-      "id": 4,
+      "id": "4",
       "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
       "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
       "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
@@ -250,7 +250,7 @@
   ],
   "information-patient": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Romina Caceres",
       "age": "19 años",
       "email": "alisongomezqy@hotmail.com",
@@ -261,7 +261,7 @@
   ],
   "information-doctor": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Alison Gomez",
       "dni": "758945398",
       "phone": "935 789 111"
@@ -269,7 +269,7 @@
   ],
   "information-patientfinance": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Alicia Ramirez Gonzales",
       "age": "19 años",
       "email": "alisongomezqy@hotmail.com",

@@ -5,6 +5,7 @@ import {PatientAppointmentViewComponent} from "./appointmentManagement/pages/pat
 import {PatientsCardsComponent} from "./searchAndMatch/pages/patients-cards/patients-cards.component";
 import {PsychologistCardsComponent} from "./searchAndMatch/pages/psychologist-cards/psychologist-cards.component";
 import {PatientAccount} from "./accountManagement/pages/patient-account/patient-account";
+import {PatientCardComponent} from "./TherapyDesign/patientCard/components/patient-card/patient-card.component";
 
 export const routes: Routes = [
   //parte de psychologists
@@ -16,7 +17,7 @@ export const routes: Routes = [
   { path: 'patient/psychologists', component:  PsychologistCardsComponent},
   { path: 'patient/calendar', component:  PatientAppointmentViewComponent},
   { path: 'patient/meetings', component:  PatientAppointmentViewComponent},
-  { path: 'patient/notes', component:  PatientAppointmentViewComponent},
+  { path: 'patient/notes', component:  PatientCardComponent},
   { path: 'patient/settings', component:  PatientAccount},
   { path: '', redirectTo: 'psychologist/patients', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
