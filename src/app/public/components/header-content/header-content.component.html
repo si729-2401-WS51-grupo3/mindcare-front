@@ -6,7 +6,10 @@
           <img class="icono-pacientes" src="https://github.com/aksoonie/mindcare-db/assets/134560396/88cc1678-c496-4575-ae36-de5f07c27265" alt="pacientes">
         </ng-template>
         <!-- vista de los pacientes -->
-        <!-- <app-patients-cards></app-patients-cards>-->
+
+        <app-patient-card></app-patient-card>
+        <app-patient-notes></app-patient-notes>
+        <app-patient-doc></app-patient-doc>
 
       </mat-tab>
       <mat-tab>
@@ -21,7 +24,6 @@
           <img class="icono-camara" src="https://github.com/aksoonie/mindcare-db/assets/134560396/e7d82f4a-d3a2-45d4-ac34-a0417b2bb4cc" alt="reuniones">
         </ng-template>
         <!-- vista del reuniones -->
-        <app-reunionespsicologos-cards></app-reunionespsicologos-cards>
       </mat-tab>
       <mat-tab>
         <ng-template mat-tab-label>
@@ -56,21 +58,18 @@
           <img class="icono-psicologos" src="https://github.com/aksoonie/mindcare-db/assets/134560396/88cc1678-c496-4575-ae36-de5f07c27265" alt="pacientes">
         </ng-template>
         <!-- vista de los pacientes -->
-        <!--<app-psychologist-cards></app-psychologist-cards> -->
       </mat-tab>
       <mat-tab>
         <ng-template mat-tab-label>
           <img class="icono-calendar" src="https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b" alt="calendario">
         </ng-template>
         <!-- vista del calendario -->
-        <app-citas-cards></app-citas-cards>
       </mat-tab>
       <mat-tab>
         <ng-template mat-tab-label>
           <img class="icono-camara" src="https://github.com/aksoonie/mindcare-db/assets/134560396/e7d82f4a-d3a2-45d4-ac34-a0417b2bb4cc" alt="camara">
         </ng-template>
         <!-- vista del reuniones -->
-        <app-reuniones-cards></app-reuniones-cards>
       </mat-tab>
       <mat-tab>
         <ng-template mat-tab-label>
@@ -84,7 +83,7 @@
           <img class="icono-finanzas" src="https://github.com/aksoonie/mindcare-db/assets/134560396/d9a6b7de-c0d0-4944-9d95-2cf481848d7f" alt="finanzas">
         </ng-template>
         <!-- vista de los finanzas-->
-
+        <app-patient-finance></app-patient-finance>
       </mat-tab>
       <mat-tab>
         <ng-template mat-tab-label>
@@ -103,4 +102,3 @@
   </mat-tab>
 
 </mat-tab-group>
-

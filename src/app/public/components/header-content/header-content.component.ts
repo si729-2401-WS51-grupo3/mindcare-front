@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
 import {MatTab, MatTabGroup, MatTabLabel} from "@angular/material/tabs";
-import {CitasCardsComponent} from "../../../therapyManagement/components/citas-cards/citas-cards.component";
-import {ReunionesCardsComponent} from "../../../therapyManagement/components/reuniones-cards/reuniones-cards.component";
-import {ReunionespsicologosCardsComponent} from "../../../therapyManagement/components/reunionespsicologos-cards/reunionespsicologos-cards.component";
+
+import {PatientCardComponent} from "../../../TherapyDesign/patientCard/components/patient-card/patient-card.component";
+import {PatientNotesComponent} from "../../../TherapyDesign/patientNotes/components/patientNotes.component";
+import {PatientDocComponent} from "../../../TherapyDesign/patientDoc/components/patientDoc.component";
+import {PatientFinanceComponent} from "../../../TherapyDesign/patientFinance/components/patientFinance.component";
+
 
 @Component({
   selector: 'app-header-content',
@@ -11,9 +14,10 @@ import {ReunionespsicologosCardsComponent} from "../../../therapyManagement/comp
     MatTab,
     MatTabGroup,
     MatTabLabel,
-    CitasCardsComponent,
-    ReunionesCardsComponent,
-    ReunionespsicologosCardsComponent,
+    PatientCardComponent,
+    PatientNotesComponent,
+    PatientDocComponent,
+    PatientFinanceComponent
   ],
   templateUrl: './header-content.component.html',
   styleUrl: './header-content.component.css'
