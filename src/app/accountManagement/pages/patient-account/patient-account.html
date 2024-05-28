@@ -33,10 +33,10 @@
       <div *ngIf="editEmail; else viewEmail">
         Correo:<br>
         <mat-card class="card-dato">
-          <input [(ngModel)]="patients.email" type="email">
+          <input class="input-edit-user" [(ngModel)]="patients.email" type="email">
         </mat-card>
-        <button (click)="saveEdit('email')">Guardar</button>
-        <button (click)="cancelEdit('email')">Cancelar</button>
+        <button class="save-button" (click)="saveEdit('email')">Guardar</button>
+        <button class="cancel-button" (click)="cancelEdit('email')">Cancelar</button>
       </div>
       <ng-template #viewEmail>
         Correo:<br>
@@ -48,10 +48,10 @@
       <div *ngIf="editPhone; else viewPhone">
         Teléfono:<br>
         <mat-card class="card-dato">
-          <input [(ngModel)]="patients.phone" type="tel">
+          <input class="input-edit-user" [(ngModel)]="patients.phone" type="tel">
         </mat-card>
-        <button (click)="saveEdit('phone')">Guardar</button>
-        <button (click)="cancelEdit('phone')">Cancelar</button>
+        <button class="save-button" (click)="saveEdit('phone')">Guardar</button>
+        <button class="cancel-button" (click)="cancelEdit('phone')">Cancelar</button>
       </div>
       <ng-template #viewPhone>
         Télefono:<br>

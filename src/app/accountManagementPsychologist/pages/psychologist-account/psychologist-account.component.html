@@ -1,0 +1,84 @@
+<div class="user-account" *ngIf="psychologists">
+  <div class="header">
+    <img class="page-icon"
+         src="https://github.com/aksoonie/mindcare-db/assets/134560396/175bbaf6-db14-4ddb-af89-71b37d99e401" alt="">
+    <h1 class="tittle">Mi cuenta</h1>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="card-user-box">
+    <mat-card class="card-datos-cuenta">
+      <h2>Datos personales</h2>
+      <div class="photo-user">
+        <div class="photo-container">
+          <img class="user-image" [src]="psychologists.photoUrl" alt="{{psychologists.name}}">
+        </div>
+      </div>
+      <div class="user-data">
+        <div class="dato-user">
+          <strong>Nombre:</strong>
+          <mat-card class="card-dato">{{psychologists.name}}</mat-card>
+        </div>
+        <div class="dato-user">
+          <strong>Fecha de nacimiento:</strong>
+          <mat-card class="card-dato">{{psychologists.birth_date}}</mat-card>
+        </div>
+        <div class="dato-user">
+          <strong>Género:</strong>
+          <mat-card class="card-dato">{{psychologists.gender}}</mat-card>
+        </div>
+      </div>
+    </mat-card>
+    <mat-card class="card-datos-cuenta">
+      <h2>Información básica</h2>
+      <div *ngIf="editEmail; else viewEmail">
+        <div class="dato-user">
+          <strong>Correo:</strong>
+          <mat-card class="card-dato">
+            <input class="input-edit-user" [(ngModel)]="psychologists.email" type="email">
+          </mat-card>
+        </div>
+        <button class="save-button" (click)="saveEdit('email')">Guardar</button>
+        <button class="cancel-button" (click)="cancelEdit('email')">Cancelar</button>
+      </div>
+      <ng-template #viewEmail>
+        <div class="dato-user">
+          <strong>Correo:</strong>
+          <mat-card class="card-dato">
+            {{psychologists.email}}
+            <i class="pen-icon fa-solid fa-pen" (click)="toggleEdit('email')"></i>
+          </mat-card>
+        </div>
+      </ng-template>
+      <div *ngIf="editPhone; else viewPhone">
+        <div class="dato-user">
+          <strong>Teléfono:</strong>
+          <mat-card class="card-dato">
+            <input class="input-edit-user" [(ngModel)]="psychologists.phone" type="tel">
+          </mat-card>
+        </div>
+        <button class="save-button" (click)="saveEdit('phone')">Guardar</button>
+        <button class="cancel-button" (click)="cancelEdit('phone')">Cancelar</button>
+      </div>
+      <ng-template #viewPhone>
+        <div class="dato-user">
+          <strong>Teléfono:</strong>
+          <mat-card class="card-dato">
+            {{psychologists.phone}}
+            <i class="pen-icon fa-solid fa-pen" (click)="toggleEdit('phone')"></i>
+          </mat-card>
+        </div>
+      </ng-template>
+      <div class="basic-info">
+        <div class="dato-user">
+          <strong>Ocupación:</strong>
+          <mat-card class="card-dato">{{psychologists.occupation}}</mat-card>
+        </div>
+        <div class="dato-user">
+          <strong>Descripción:</strong>
+          <mat-card class="card-dato">{{psychologists.description}}</mat-card>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+  <div *ngIf="!psychologists">Cargando datos del psicólogo...</div>
+</div>

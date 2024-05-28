@@ -6,17 +6,16 @@ import {PatientsCardsComponent} from "./searchAndMatch/pages/patients-cards/pati
 import {PsychologistCardsComponent} from "./searchAndMatch/pages/psychologist-cards/psychologist-cards.component";
 import {PatientAccount} from "./accountManagement/pages/patient-account/patient-account";
 import {ReunionesCardsComponent} from "./therapyManagement/components/reuniones-cards/reuniones-cards.component";
-import {
-  ReunionespsicologosCardsComponent
-} from "./therapyManagement/components/reunionespsicologos-cards/reunionespsicologos-cards.component";
+import {ReunionespsicologosCardsComponent} from "./therapyManagement/components/reunionespsicologos-cards/reunionespsicologos-cards.component";
 import {PatientCardComponent} from "./TherapyDesign/patientCard/components/patient-card/patient-card.component";
+import {PsychologistAccount} from "./accountManagementPsychologist/pages/psychologist-account/psychologist-account.component";
 
 export const routes: Routes = [
   //parte de psychologists
   { path: 'psychologist/patients', component: PatientsCardsComponent},
   { path: 'psychologist/calendar', component: PsicologistAppointmentViewComponent},
   { path: 'psychologist/meetings', component: ReunionespsicologosCardsComponent},
-  { path: 'psychologist/settings', component: PsicologistAppointmentViewComponent},
+  { path: 'psychologist/settings', component: PsychologistAccount},
   //parte de patients
   { path: 'patient/psychologists', component:  PsychologistCardsComponent},
   { path: 'patient/calendar', component:  PatientAppointmentViewComponent},

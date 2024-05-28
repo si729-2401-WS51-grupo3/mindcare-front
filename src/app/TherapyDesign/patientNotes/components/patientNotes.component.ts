@@ -3,8 +3,8 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-patient-notes',
-  templateUrl: './patientNotes.component.html',
-  styleUrls: ['./patientNotes.component.css'],
+  templateUrl: 'patientNotes.component.html',
+  styleUrls: ['patientNotes.component.css'],
   standalone: true,
   imports: [FormsModule]  // Import FormsModule here
 })
