@@ -4,11 +4,13 @@ import {MatCardModule} from '@angular/material/card';
 import {Psychologist} from "../../model/psychologist.entity";
 import {PsychologistInfoApiService} from "../../services/psychologist-info-api.service";
 import {NgForOf} from "@angular/common";
+import {PatientNotesComponent} from "../../../patientNotes/components/patientNotes.component";
+import {PatientDocComponent} from "../../../patientDoc/components/patientDoc.component";
 
 @Component({
   selector: 'app-patient-card',
   standalone: true,
-  imports: [MatCardModule, MatButtonModule, NgForOf],
+  imports: [MatCardModule, MatButtonModule, NgForOf, PatientNotesComponent, PatientDocComponent],
   templateUrl: './patient-card.component.html',
   styleUrl: './patient-card.component.css'
 })
