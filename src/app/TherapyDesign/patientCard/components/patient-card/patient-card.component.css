@@ -10,11 +10,11 @@
   width: 100%;
   border: 1px solid black;
   display: inline-block;
-  flex-grow: 0; /* Esto hace que el componente no crezca para llenar el espacio extra */
+  flex-grow: 0; /* Prevent the component from growing to fill extra space */
 }
 
 /* Resto del código... */
-.gestion-notas{
+.gestion-notas {
   margin-left: 50%;
   margin-top: 3%;
   color: #6B9F9F;
@@ -22,12 +22,11 @@
 }
 
 .linea {
-  border: none; /* Quita el borde predeterminado */
-  border-top: 1px solid #6B9F9F; /* Establece el estilo, grosor y color de la línea */
-  width: 50%; /* Ajusta el ancho de la línea */
+  border: none; /* Remove the default border */
+  border-top: 1px solid #6B9F9F; /* Set style, thickness, and color of the line */
+  width: 50%; /* Adjust the width of the line */
   margin-left: 31%;
 }
-
 
 .example-header-image {
   margin-top: 50px;
@@ -35,8 +34,8 @@
 }
 
 mat-card-title {
-  font-weight: bold; /* Hace que los títulos estén en negrita */
-  font-family: 'Nunito', sans-serif; /* Cambia la tipografía a Nunito */
+  font-weight: bold; /* Make titles bold */
+  font-family: 'Nunito', sans-serif; /* Change font to Nunito */
 }
 
 mat-card-subtitle {
@@ -45,7 +44,18 @@ mat-card-subtitle {
 
 @media (max-width: 790px) {
   .example-card {
-    max-width: 100%; /* Ajusta el ancho máximo para pantallas pequeñas */
-    height: auto; /* Ajusta la altura para pantallas pequeñas */
+    max-width: 100%; /* Adjust max width for small screens */
+    margin-left: 0; /* Center the card */
+    height: auto; /* Adjust height for responsiveness */
+  }
+
+  .gestion-notas {
+    margin-left: 0; /* Center align text for small screens */
+    margin-top: 20px;
+  }
+
+  .linea {
+    width: 80%; /* Adjust width for small screens */
+    margin-left: 10%; /* Center align line */
   }
 }
