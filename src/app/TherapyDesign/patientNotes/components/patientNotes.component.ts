@@ -1,23 +1,27 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import {CommonModule} from "@angular/common";
 
 @Component({
   selector: 'app-patient-notes',
   templateUrl: 'patientNotes.component.html',
   styleUrls: ['patientNotes.component.css'],
   standalone: true,
-  imports: [FormsModule]  // Import FormsModule here
+  imports: [CommonModule, FormsModule]
 })
-export class PatientNotesComponent {
-  notas: string[] = [];
+export class PatientNotesComponent implements OnInit{
+  notes: string[] = [];
   currentNote: string = '';
 
   guardarNota() {
-    this.notas.push(this.currentNote);
+    this.notes.push(this.currentNote);
     this.currentNote = '';
   }
 
   mostrarNota(index: number) {
-    this.currentNote = this.notas[index];
+    this.currentNote = this.notes[index];
+  }
+
+  ngOnInit(): void {
   }
 }

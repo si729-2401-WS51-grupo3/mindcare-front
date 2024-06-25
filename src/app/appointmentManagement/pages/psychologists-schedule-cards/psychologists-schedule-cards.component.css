@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.card-appointment-box {
+  margin-top: 1.5rem;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 4em;
+}
+.appointment-card {
+  font-family: "Nunito", sans-serif;
+  max-width: 350px;
+  padding: 1em;
+  width: 100%;
+  margin: 10px;
+  border-radius: 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.encabezado {
+  margin-top:2em;
+  margin-bottom: 1.5em;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.icono-pagina {
+  justify-self: left;
+  height: 50px;
+} /*agregar*/
+
+.tittle {
+  font-family: "Nunito", sans-serif;
+  margin-top: 0.3em;
+  margin-left: 0.5em;
+  font-size: xx-large;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: auto;
+}
+
+mat-divider {
+  width: 85%;
+  margin: 1.5em auto;
+}
+mat-card-header p{
+  font-size: 1.2em;
+  font-weight: 450;
+  color: rgb(233, 171, 162);
+}
+mat-card-title h1{
+  color:#3B6767;
+  margin-left: 1rem;
+}
+mat-card-content{
+  font-size: 1.1em;
+  color: #3B6767;
+}

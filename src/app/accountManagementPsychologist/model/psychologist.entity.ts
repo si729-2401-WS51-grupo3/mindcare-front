@@ -8,6 +8,7 @@ export class Psicologo {
   photoUrl: string;
   occupation:string;
   description:string;
+  scheduleId:number;
   constructor() {
     this.id=0;
     this.name='';
@@ -18,5 +19,6 @@ export class Psicologo {
     this.photoUrl='';
     this.occupation='';
     this.description='';
+    this.scheduleId=0;
   }
 }

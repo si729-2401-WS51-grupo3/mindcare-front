@@ -4,6 +4,8 @@ import { AppComponent } from './app.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import {FormsModule} from "@angular/forms";
+import {CommonModule} from "@angular/common";
 
 // Función para crear un TranslateLoader con HttpLoader
 export function HttpLoaderFactory(http: HttpClient) {
@@ -12,6 +14,8 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 @NgModule({
   imports: [
+    CommonModule,
+    FormsModule,
     BrowserModule,
     HttpClientModule,
     TranslateModule.forRoot({

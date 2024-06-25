@@ -2,57 +2,104 @@
   "psychologists": [
     {
       "id": "1",
-      "name": "Ana",
-      "lastName": "García",
-      "email": "ana.garcia@hotmail.com",
-      "dni": "12345678A",
-      "phone": "+34123456789",
-      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/442649e9-164c-45b7-a58d-65146e0b886e"
+      "name": "Sofía",
+      "lastName": "Hernández",
+      "email": "sofia.hernandez@hotmail.com",
+      "dni": "87654321H",
+      "phone": "+34123456796",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/442649e9-164c-45b7-a58d-65146e0b886e",
+      "occupation": "terapeuta",
+      "description": "Sofía enseña matemáticas en una escuela secundaria y tiene pasión por la educación.",
+      "gender": "Femenino",
+      "birthday": "1990/04/22",
+      "scheduleId": "1"
     },
     {
       "id": "2",
-      "name": "Juan",
-      "lastName": "Martínez",
-      "email": "juan.martinez@hotmail.com",
-      "dni": "87654321B",
-      "phone": "+34123456790",
-      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/3d6261f4-4d5f-4475-9216-a7658ac4719f"
+      "name": "Diego",
+      "lastName": "López",
+      "email": "diego.lopez@hotmail.com",
+      "dni": "12345678L",
+      "phone": "+34123456797",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/3d6261f4-4d5f-4475-9216-a7658ac4719f",
+      "occupation": "Psiquiatra",
+      "description": "Diego es un psiquiatra especializado en trastornos del estado de ánimo.",
+      "gender": "Masculino",
+      "birthday": "1980/11/10",
+      "scheduleId": "2"
     },
     {
       "id": "3",
-      "name": "María",
-      "lastName": "López",
-      "email": "maria.lopez@hotmail.com",
-      "dni": "12348765C",
-      "phone": "+34123456791",
-      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/82af9c27-f11b-43d4-8ca5-4a1f8ac9ce85"
+      "name": "Luisa",
+      "lastName": "Martínez",
+      "email": "luisa.martinez@hotmail.com",
+      "dni": "87654321M",
+      "phone": "+34123456798",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/82af9c27-f11b-43d4-8ca5-4a1f8ac9ce85",
+      "occupation": "Consejera",
+      "description": "Luisa es una consejera con experiencia en terapia familiar.",
+      "gender": "Femenino",
+      "birthday": "1992/03/05",
+      "scheduleId": "3"
     },
     {
       "id": "4",
       "name": "Carlos",
-      "lastName": "Rodríguez",
-      "email": "carlos.rodriguez@hotmail.com",
-      "dni": "87651234D",
-      "phone": "+34123456792",
-      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/5bbf6d9b-9b43-4f0e-9d45-d3a2d48c4415"
+      "lastName": "García",
+      "email": "carlos.garcia@hotmail.com",
+      "dni": "12345678N",
+      "phone": "+34123456799",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/5bbf6d9b-9b43-4f0e-9d45-d3a2d48c4415",
+      "occupation": "Terapeuta Ocupacional",
+      "description": "Carlos es un terapeuta ocupacional especializado en salud mental.",
+      "gender": "Masculino",
+      "birthday": "1985/08/14",
+      "scheduleId": "4"
+
     },
     {
       "id": "5",
-      "name": "Laura",
-      "lastName": "Pérez",
-      "email": "laura.perez@hotmail.com",
-      "dni": "12347654E",
-      "phone": "+34123456793",
-      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/5a2b9aa6-c2f2-40cb-9307-9f316f58eae7"
+      "name": "Ana",
+      "lastName": "López",
+      "email": "ana.lopez@hotmail.com",
+      "dni": "87654321O",
+      "phone": "+34123456800",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/5a2b9aa6-c2f2-40cb-9307-9f316f58eae7",
+      "occupation": "Psicóloga",
+      "description": "Ana es una psicóloga clínica con experiencia en terapia cognitivo-conductual.",
+      "gender": "Femenino",
+      "birthday": "1988/12/01",
+      "scheduleId": "5"
     },
     {
       "id": "6",
-      "name": "Ramiro",
-      "lastName": "Pérez",
-      "email": "ramiro.perez@hotmail.com",
-      "dni": "87654321F",
-      "phone": "+34123456794",
-      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/ac72b4e2-b88d-4869-8aea-17d772b466ea"
+      "name": "Marta",
+      "lastName": "Sánchez",
+      "email": "marta.sanchez@hotmail.com",
+      "dni": "12345678P",
+      "phone": "+34123456801",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/5a2b9aa6-c2f2-40cb-9307-9f316f58eae7",
+      "occupation": "Asistente Social",
+      "description": "Marta es una asistente social que trabaja con pacientes de salud mental en situaciones de crisis.",
+      "gender": "Femenino",
+      "birthday": "1982/07/30",
+      "scheduleId": "6"
+
+    },
+    {
+      "id": "7",
+      "name": "Javier",
+      "lastName": "Dominguez",
+      "email": "javier.dominguez@hotmail.com",
+      "dni": "87654321Q",
+      "phone": "+34123456802",
+      "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/ac72b4e2-b88d-4869-8aea-17d772b466ea",
+      "occupation": "Psicopedagogo",
+      "description": "Javier es un psicopedagogo especializado en el apoyo a niños con dificultades de aprendizaje.",
+      "gender": "Masculino",
+      "birthday": "1994/01/18",
+      "scheduleId": "7"
+
     }
   ],
   "patients": [
@@ -62,12 +109,12 @@
       "lastName": "Gómez",
       "email": "pedro.gomez@hotmail.com",
       "dni": "12345678G",
-      "phone": "933934569",
+      "phone": "+34933934569",
       "photoUrl": "https://github.com/aksoonie/mindcare-db.json/assets/134560396/ac0860ec-a6b3-4aa4-adb1-d18c0cfd5876",
       "occupation": "Ingeniero",
       "description": "Pedro es un ingeniero de software con más de 10 años de experiencia en la industria tecnológica.",
       "gender": "Masculino",
-      "birthday": "1984-06-15"
+      "birthday": "1984/06/15"
     },
     {
       "id": "2",
@@ -80,7 +127,7 @@
       "occupation": "Maestra",
       "description": "Sofía enseña matemáticas en una escuela secundaria y tiene pasión por la educación.",
       "gender": "Femenino",
-      "birthday": "1990-04-22"
+      "birthday": "1990/04/22"
     },
     {
       "id": "3",
@@ -93,7 +140,7 @@
       "occupation": "Médico",
       "description": "Manuel es un médico general con un enfoque en la medicina familiar.",
       "gender": "Masculino",
-      "birthday": "1980-11-10"
+      "birthday": "1980/11/10"
     },
     {
       "id": "4",
@@ -106,7 +153,7 @@
       "occupation": "Diseñadora Gráfica",
       "description": "Elena es una creativa diseñadora gráfica que trabaja en una agencia de publicidad.",
       "gender": "Femenino",
-      "birthday": "1992-03-05"
+      "birthday": "1992/03/05"
     },
     {
       "id": "5",
@@ -119,7 +166,7 @@
       "occupation": "Abogada",
       "description": "Julia es una abogada corporativa con experiencia en derecho comercial internacional.",
       "gender": "Femenino",
-      "birthday": "1985-08-14"
+      "birthday": "1985/08/14"
     },
     {
       "id": "6",
@@ -132,7 +179,7 @@
       "occupation": "Chef",
       "description": "Romina es una chef profesional que posee un restaurante popular en la ciudad.",
       "gender": "Femenino",
-      "birthday": "1988-12-01"
+      "birthday": "1988/12/01"
     },
     {
       "id": "7",
@@ -145,7 +192,7 @@
       "occupation": "Arquitecto",
       "description": "Julio es un arquitecto conocido por sus innovadores diseños de edificios.",
       "gender": "Masculino",
-      "birthday": "1982-07-30"
+      "birthday": "1982/07/30"
     },
     {
       "id": "8",
@@ -158,7 +205,7 @@
       "occupation": "Fotógrafo",
       "description": "Noah es un fotógrafo freelance con pasión por la fotografía de viajes y naturaleza.",
       "gender": "Masculino",
-      "birthday": "1994-01-18"
+      "birthday": "1994/01/18"
     },
     {
       "id": "9",
@@ -171,261 +218,157 @@
       "occupation": "Científica",
       "description": "Maria es una cientifica que realiza investigaciones en energías renovables.",
       "gender": "Femenino",
-      "birthday": "1987-09-25"
+      "birthday": "1987/09/25"
     }
   ],
-  "dates": [
+  "finance": [
     {
       "id": "1",
-      "hour": "10:00 AM",
-      "psychologistName": "Camila",
-      "psychologistLast": "Peralta"
+      "name": "Alicia Ramirez Gonzales",
+      "age": 19,
+      "email": "alisongomezqy@hotmail.com",
+      "dni": "758953412",
+      "phone": "+34935789111",
+      "image": "https://github.com/si729-2401-WS51-grupo3/documentation/assets/133830443/f54a926c-c7f1-4f6c-b92e-53c46e8ea295",
+      "date": "2024/05/07",
+      "treatment": "Ansiedad",
+      "appointment": "Primera sesion",
+      "time": "09:00 AM",
+      "doctor": "Romina Caceres",
+      "amount": 70
     }
   ],
-  "detail-course": [
-    {
-      "id": 1,
-      "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
-      "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
-      "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
-      "image3": "https://github.com/CodepaceOrganization/Informes/assets/133830443/445185ef-22aa-4d10-80df-f90ed2c3dc99",
-      "introduction": "Breve introducción del curso, qué cubrirá y cómo se desarrollará con el tiempo.",
-      "development": "Contenido completo del curso, tendrás acceso a videos informativos, cuestionarios que te ayudarán a reforzar lo aprendido, etc.",
-      "test": "Un examen final donde podrás aprobar tus habilidades y conocimientos que aprendiste a lo largo del curso.",
-      "goal1": "Comprender y aplicar correctamente los conceptos fundamentales de programación, como variables, operadores, estructuras de control, funciones, y arreglos.",
-      "goal2": "Adquirir experiencia práctica en el desarrollo de software, incluyendo la planificación, codificación, depuración, y pruebas de programas y aplicaciones.",
-      "goal3": "Construir proyectos prácticos, desde simples a complejos, para aplicar conocimientos teóricos en escenarios reales.",
-      "goal4": "Cultivar una mentalidad de aprendizaje continuo, capaz de adaptarse a las tendencias y cambios en tecnologías de programación.",
-      "goal5": "Desarrollar habilidades para analizar problemas, descomponerlos en componentes más pequeños, y proponer soluciones mediante la programación.",
-      "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
-    },
+  "all-appointments": [
     {
       "id": 2,
-      "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
-      "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
-      "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
-      "image3": "https://github.com/CodepaceOrganization/Informes/assets/133830443/445185ef-22aa-4d10-80df-f90ed2c3dc99",
-      "introduction": "Breve introducción del curso, qué cubrirá y cómo se desarrollará con el tiempo.",
-      "development": "Contenido completo del curso, tendrás acceso a videos informativos, cuestionarios que te ayudarán a reforzar lo aprendido, etc.",
-      "test": "Un examen final donde podrás aprobar tus habilidades y conocimientos que aprendiste a lo largo del curso.",
-      "goal1": "Comprender y aplicar correctamente los conceptos fundamentales de programación, como variables, operadores, estructuras de control, funciones, y arreglos.",
-      "goal2": "Adquirir experiencia práctica en el desarrollo de software, incluyendo la planificación, codificación, depuración, y pruebas de programas y aplicaciones.",
-      "goal3": "Construir proyectos prácticos, desde simples a complejos, para aplicar conocimientos teóricos en escenarios reales.",
-      "goal4": "Cultivar una mentalidad de aprendizaje continuo, capaz de adaptarse a las tendencias y cambios en tecnologías de programación.",
-      "goal5": "Desarrollar habilidades para analizar problemas, descomponerlos en componentes más pequeños, y proponer soluciones mediante la programación.",
-      "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
+      "title": "Sesión de Seguimiento",
+      "description": "Segunda sesión para evaluar el progreso en el tratamiento de la ansiedad.",
+      "date": "2024/03/01",
+      "type": "Terapia",
+      "hour": 10,
+      "patientId": 2,
+      "psychologistId": 2
     },
     {
       "id": 3,
-      "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
-      "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
-      "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
-      "image3": "https://github.com/CodepaceOrganization/Informes/assets/133830443/445185ef-22aa-4d10-80df-f90ed2c3dc99",
-      "introduction": "Breve introducción del curso, qué cubrirá y cómo se desarrollará con el tiempo.",
-      "development": "Contenido completo del curso, tendrás acceso a videos informativos, cuestionarios que te ayudarán a reforzar lo aprendido, etc.",
-      "test": "Un examen final donde podrás aprobar tus habilidades y conocimientos que aprendiste a lo largo del curso.",
-      "goal1": "Comprender y aplicar correctamente los conceptos fundamentales de programación, como variables, operadores, estructuras de control, funciones, y arreglos.",
-      "goal2": "Adquirir experiencia práctica en el desarrollo de software, incluyendo la planificación, codificación, depuración, y pruebas de programas y aplicaciones.",
-      "goal3": "Construir proyectos prácticos, desde simples a complejos, para aplicar conocimientos teóricos en escenarios reales.",
-      "goal4": "Cultivar una mentalidad de aprendizaje continuo, capaz de adaptarse a las tendencias y cambios en tecnologías de programación.",
-      "goal5": "Desarrollar habilidades para analizar problemas, descomponerlos en componentes más pequeños, y proponer soluciones mediante la programación.",
-      "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
+      "title": "Sesión de Terapia Cognitiva",
+      "description": "Sesión enfocada en técnicas de terapia cognitiva.",
+      "date": "2024/03/05",
+      "type": "Terapia",
+      "hour": 11,
+      "patientId": 3,
+      "psychologistId": 3
     },
     {
       "id": 4,
-      "description": "En este apartado encontrarás todo lo relacionado con el curso, también podrás ver los objetivos del curso y toda la información que te ofrecemos.",
-      "image": "https://github.com/CodepaceOrganization/Informes/assets/133830443/f696d7ba-f4ee-4caf-a2f1-723fa9e019ef",
-      "image2": "https://github.com/CodepaceOrganization/Informes/assets/133830443/35b0bdee-e26d-43c6-97a7-af58f22914d0",
-      "image3": "https://github.com/CodepaceOrganization/Informes/assets/133830443/445185ef-22aa-4d10-80df-f90ed2c3dc99",
-      "introduction": "Breve introducción del curso, qué cubrirá y cómo se desarrollará con el tiempo.",
-      "development": "Contenido completo del curso, tendrás acceso a videos informativos, cuestionarios que te ayudarán a reforzar lo aprendido, etc.",
-      "test": "Un examen final donde podrás aprobar tus habilidades y conocimientos que aprendiste a lo largo del curso.",
-      "goal1": "Comprender y aplicar correctamente los conceptos fundamentales de programación, como variables, operadores, estructuras de control, funciones, y arreglos.",
-      "goal2": "Adquirir experiencia práctica en el desarrollo de software, incluyendo la planificación, codificación, depuración, y pruebas de programas y aplicaciones.",
-      "goal3": "Construir proyectos prácticos, desde simples a complejos, para aplicar conocimientos teóricos en escenarios reales.",
-      "goal4": "Cultivar una mentalidad de aprendizaje continuo, capaz de adaptarse a las tendencias y cambios en tecnologías de programación.",
-      "goal5": "Desarrollar habilidades para analizar problemas, descomponerlos en componentes más pequeños, y proponer soluciones mediante la programación.",
-      "goal6": "Ser capaz de diseñar y desarrollar aplicaciones complejas que puedan abordar problemas del mundo real, utilizando un enfoque estructurado y modular."
-    }
-  ],
-  "information-patient": [
+      "title": "Sesión de Relajación",
+      "description": "Sesión dedicada a técnicas de relajación y manejo del estrés.",
+      "date": "2024/03/10",
+      "type": "Terapia",
+      "hour": 13,
+      "patientId": 4,
+      "psychologistId": 4
+    },
     {
-      "id": 1,
-      "name": "Romina Caceres",
-      "age": "19 años",
-      "email": "alisongomezqy@hotmail.com",
-      "dni": "758953412",
-      "phone": "935 789 111",
-      "image": "https://github.com/si729-2401-WS51-grupo3/documentation/assets/133830443/21bc0aa7-9875-4dc4-970d-472dbb94f8e3"
-    }
-  ],
-  "information-doctor": [
+      "id": 5,
+      "title": "Terapia Grupal",
+      "description": "Sesión grupal para compartir experiencias y estrategias.",
+      "date": "2024/03/15",
+      "type": "Terapia",
+      "hour": 14,
+      "patientId": 5,
+      "psychologistId": 5
+    },
     {
-      "id": 1,
-      "name": "Alison Gomez",
-      "dni": "758945398",
-      "phone": "935 789 111"
+      "id": 6,
+      "title": "Terapia de Pareja",
+      "description": "Sesión de terapia de pareja para mejorar la comunicación.",
+      "date": "2024/03/20",
+      "type": "Terapia",
+      "hour": 15,
+      "patientId": 6,
+      "psychologistId": 6
     }
   ],
-  "information-patientfinance": [
+  "all-reservations": [
     {
-      "id": 1,
-      "name": "Alicia Ramirez Gonzales",
-      "age": "19 años",
-      "email": "alisongomezqy@hotmail.com",
-      "dni": "758953412",
-      "phone": "935 789 111",
-      "image": "https://github.com/si729-2401-WS51-grupo3/documentation/assets/133830443/f54a926c-c7f1-4f6c-b92e-53c46e8ea295",
-      "date": "07/05/2024",
-      "treatment": "Ansiedad",
-      "appointment": "Primera sesion",
-      "time": "9:00 AM",
-      "doctor": "Romina Caceres",
-      "import": "70"
+      "scheduleId": 1,
+      "patientId": 2,
+      "psychologistId": 1,
+      "reservationHour": 10,
+      "reservationDate": "2024/07/01"
+    },
+    {
+      "scheduleId": 2,
+      "patientId": 3,
+      "psychologistId": 2,
+      "reservationHour": 14,
+      "reservationDate": "2024/07/02"
+    },
+    {
+      "scheduleId": 3,
+      "patientId": 4,
+      "psychologistId": 3,
+      "reservationHour": 9,
+      "reservationDate": "2024/07/03"
+    },
+    {
+      "scheduleId": 4,
+      "patientId": 5,
+      "psychologistId": 4,
+      "reservationHour": 16,
+      "reservationDate": "2024/07/04"
+    },
+    {
+      "scheduleId": 5,
+      "patientId": 6,
+      "psychologistId": 5,
+      "reservationHour": 11,
+      "reservationDate": "2024/07/05"
     }
   ],
-  "citas": [
+  "schedule": [
     {
       "id": "1",
-      "name": "Dr. Romina Caceres",
-      "date": "23 de febrero 2024",
-      "hour": "9:00 AM",
-      "status": "Pendiente De Confirmar",
-      "patient_name": "Barbara Susana Quezada Portalatino",
-      "type_office": "Consultorio Virtual"
+      "psychologistId": 1,
+      "startedHour": 8,
+      "finishedHour": 14
     },
     {
       "id": "2",
-      "name": "Dr. Jimena Diaz",
-      "date": "15 de junio 2024",
-      "hour": "3:00 PM",
-      "status": "Pagar",
-      "patient_name": "Barbara Susana Quezada Portalatino",
-      "type_office": "Consultorio Virtual"
+      "psychologistId": 2,
+      "startedHour": 9,
+      "finishedHour": 15
     },
     {
       "id": "3",
-      "name": "Dr. Alison Parker",
-      "date": "15 de octubre 2024",
-      "hour": "9:00 AM",
-      "status": "Pagar",
-      "patient_name": "Barbara Susana Quezada Portalatino",
-      "type_office": "Consultorio Virtual"
+      "psychologistId": 3,
+      "startedHour": 10,
+      "finishedHour": 16
     },
     {
       "id": "4",
-      "name": "Dr. Adriano Cruz",
-      "date": "15 de octubre 2024",
-      "hour": "10:00 AM",
-      "status": "Pagar",
-      "patient_name": "Barbara Susana Quezada Portalatino",
-      "type_office": "Consultorio Virtual"
-    }
-  ],
-  "reunionesPsicologo": [
-    {
-      "id": "1",
-      "name": "Alison Gomez",
-      "date": "23 de febrero 2024",
-      "hour": "9:00 AM",
-      "status": "Pendiente De Confirmar",
-      "patient_name": "Barbara Susana Quezada Portalatino",
-      "type_office": "Consultorio Virtual"
-    },
-    {
-      "id": "2",
-      "name": "Jair Castillo",
-      "date": "15 de junio 2024",
-      "hour": "3:00 PM",
-      "status": "Pagar",
-      "patient_name": "Barbara Susana Quezada Portalatino",
-      "type_office": "Consultorio Virtual"
-    },
-    {
-      "id": "3",
-      "name": "Paola Diaz",
-      "date": "15 de octubre 2024",
-      "hour": "9:00 AM",
-      "status": "Pagar",
-      "patient_name": "Barbara Susana Quezada Portalatino",
-      "type_office": "Consultorio Virtual"
-    },
-    {
-      "id": "4",
-      "name": "Ariana Estrada",
-      "date": "15 de octubre 2024",
-      "hour": "10:00 AM",
-      "status": "Pagar",
-      "patient_name": "Barbara Susana Quezada Portalatino",
-      "type_office": "Consultorio Virtual"
-    }
-  ],
-  "informacion_psicologo": [
-    {
-      "id": "1",
-      "name": "Alison Dorothea Gomez Swift",
-      "birth_date": "22 de julio de 1992",
-      "gender": "Mujer",
-      "email": "alisondorothea1234@outlook.com",
-      "phone": "972274418",
-      "photoUrl": "https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/b710d3da-cf2b-4d9a-b1b4-c58b42dd7c20",
-      "occupation": "Psicoterapeuta",
-      "description": "Soy una psicoterapeuta licenciada con más de 10 años de experiencia en el campo de la salud mental. Especializada en Terapia Cognitivo-Conductual (TCC), me dedico a ayudar a mis pacientes a superar sus desafíos emocionales y mejorar su bienestar general. Trabajo con una variedad de problemas, incluyendo ansiedad, depresión, estrés, traumas y trastornos del estado de ánimo."
-    },
-    {
-      "id": "2",
-      "name": "Carlos Eduardo Fernandez Perez",
-      "birth_date": "15 de marzo de 1985",
-      "gender": "Hombre",
-      "email": "carlosfernandez85@gmail.com",
-      "phone": "123456789",
-      "photoUrl": "https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/240aadde-66ed-47d3-9a4f-8455790a73b4",
-      "occupation": "Psicólogo Clínico",
-      "description": "Soy un psicólogo clínico con especialización en Terapia Familiar y de Pareja. Con más de 15 años de experiencia, ayudo a las familias y parejas a mejorar sus relaciones y resolver conflictos. Trabajo con problemas de comunicación, infidelidad, y estrés familiar."
-    },
-    {
-      "id": "3",
-      "name": "Mariana López Garza",
-      "birth_date": "30 de noviembre de 1990",
-      "gender": "Mujer",
-      "email": "marianalopez90@yahoo.com",
-      "phone": "987654321",
-      "photoUrl": "https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/8a5362d1-3b0d-4361-be2d-1d742ac5c188",
-      "occupation": "Psicoterapeuta Infantil",
-      "description": "Como psicoterapeuta infantil, me especializo en trabajar con niños y adolescentes para abordar problemas de conducta, ansiedad, y dificultades de aprendizaje. Tengo más de 8 años de experiencia ayudando a los jóvenes a desarrollarse en un entorno seguro y de apoyo."
-    },
-    {
-      "id": "4",
-      "name": "Jose Miguel Rios Mendoza",
-      "birth_date": "10 de enero de 1978",
-      "gender": "Hombre",
-      "email": "josemrios78@hotmail.com",
-      "phone": "543216789",
-      "photoUrl": "https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/476de5e5-eb40-4e01-b52e-e7b52b2707d4",
-      "occupation": "Psicoanalista",
-      "description": "Soy un psicoanalista con más de 20 años de experiencia en el campo de la psicología. Me dedico a ayudar a mis pacientes a explorar su subconsciente y a resolver problemas profundos que afectan su comportamiento y bienestar emocional."
+      "psychologistId": 4,
+      "startedHour": 11,
+      "finishedHour": 17
     },
     {
       "id": "5",
-      "name": "Laura Patricia Martinez Ortega",
-      "birth_date": "25 de septiembre de 1988",
-      "gender": "Mujer",
-      "email": "lauramartinez88@gmail.com",
-      "phone": "654321987",
-      "photoUrl": "https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/fef88595-90d4-4656-a7dc-d67bec008791",
-      "occupation": "Psicoterapeuta Gestalt",
-      "description": "Soy una psicoterapeuta Gestalt con una década de experiencia en la ayuda a individuos a alcanzar un mayor autoconocimiento y a vivir en el momento presente. Trabajo con problemas de autoestima, ansiedad, y crecimiento personal."
+      "psychologistId": 5,
+      "startedHour": 12,
+      "finishedHour": 18
     },
     {
       "id": "6",
-      "name": "Tomas Leon Hernandez Vargas",
-      "birth_date": "12 de diciembre de 1993",
-      "gender": "Hombre",
-      "email": "danielahernandez93@outlook.com",
-      "phone": "321654987",
-      "photoUrl": "https://github.com/BarbaraQP15/mindcare-therapyManagement/assets/131493394/6a4d675b-22f2-4ee8-a6ef-8e930cc8146c",
-      "occupation": "Psicólogo Educativa",
-      "description": "Soy un psicólogo educativo con más de 7 años de experiencia en trabajar con niños y adolescentes en contextos escolares. Ayudo a los estudiantes a superar dificultades académicas y emocionales, promoviendo un entorno educativo saludable."
+      "psychologistId": 6,
+      "startedHour": 9,
+      "finishedHour": 13
+    },
+    {
+      "id": "7",
+      "psychologistId": 7,
+      "startedHour": 8,
+      "finishedHour": 12
     }
   ]
 }

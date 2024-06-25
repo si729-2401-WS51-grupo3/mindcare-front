@@ -4,7 +4,7 @@ import { NgIf } from '@angular/common';
 import { MatCard } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import {Psicologo} from "../../model/psychologist.entity";
-import {AccountManagementApiService} from "../../services/account-management-api.service";
+import {PsychologistApiService} from "../../services/account-management-api.service";
 
 @Component({
   selector: 'app-psychologist-account',
@@ -17,7 +17,7 @@ export class PsychologistAccount implements OnInit {
   psychologists: Psicologo | null = null;
   originalPsychologists: Psicologo | null = null;  // Almacena los datos originales
 
-  constructor(private psychologistService: AccountManagementApiService) {}
+  constructor(private psychologistService: PsychologistApiService) {}
 
   ngOnInit(): void {
     this.psychologistService.getInfo().subscribe(psychologists => {

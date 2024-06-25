@@ -3,9 +3,10 @@ import {MatCard, MatCardModule} from "@angular/material/card";
 import {NgForOf} from "@angular/common";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatInput} from "@angular/material/input";
-import {PatientEntity} from "../../model/patient.entity";
 import {SearchandmatchApiService} from "../../services/searchandmatch-api.service";
 import {PsychologistEntity} from "../../model/psychologist.entity";
+import {Router} from "@angular/router";
+
 @Component({
   selector: 'app-psychologist-cards',
   standalone: true,
@@ -17,7 +18,7 @@ export class PsychologistCardsComponent {
   @Input() psychologists: Array<PsychologistEntity> = [];
   filteredPsychologists: Array<PsychologistEntity> = [];
 
-  constructor(private searchandmatchApiService: SearchandmatchApiService) {}
+  constructor(private router: Router ,private searchandmatchApiService: SearchandmatchApiService) {}
   ngOnInit(): void {
     this.searchandmatchApiService.getPsychologists().subscribe((data: any) => {
       this.psychologists = data;
@@ -29,5 +30,8 @@ export class PsychologistCardsComponent {
     this.filteredPsychologists = this.psychologists.filter(psychologist =>
       psychologist.name.toLowerCase().includes(filterValue) || psychologist.lastName.toLowerCase().includes(filterValue)
     );
+  }
+  onPsychologistCardClick(psychologistId: number): void {
+    this.router.navigate(['/psychologist/schedule', psychologistId]);
   }
 }

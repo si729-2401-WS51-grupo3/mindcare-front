@@ -10,7 +10,7 @@
   </div>
 
   <div class="card-psychologist-box">
-    <mat-card class="psychologist-card" *ngFor="let psychologist of filteredPsychologists">
+    <mat-card class="psychologist-card" *ngFor="let psychologist of filteredPsychologists" (click)="onPsychologistCardClick(psychologist.id)">
       <img src="{{psychologist.photoUrl}}" alt="{{psychologist.name}} {{psychologist.lastName}}">
       <mat-card-header>
         <p><strong>Nombre: </strong> {{ psychologist.name }} {{ psychologist.lastName }}</p>

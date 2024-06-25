@@ -1,9 +1,9 @@
-<label class="notes" for="notas">Notas</label>
+<label class="notes" for="currentNote">Notas</label>
 <div>
-  <textarea [(ngModel)]="currentNote" cols="30" rows="10" placeholder="Escribe tus notas aquí..."></textarea>
+  <textarea id="currentNote" [(ngModel)]="currentNote" cols="30" rows="10" placeholder="Escribe tus notas aquí..."></textarea>
   <button (click)="guardarNota()">Guardar</button>
 </div>
 
-<div *ngFor="let nota of notas; let i = index">
+<div *ngFor="let nota of notes; let i = index">
   <img src="path_to_document_icon.png" alt="Nota Documento" (click)="mostrarNota(i)">
 </div>

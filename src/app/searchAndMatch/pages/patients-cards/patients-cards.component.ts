@@ -5,6 +5,7 @@ import {PatientEntity} from "../../model/patient.entity";
 import {SearchandmatchApiService} from "../../services/searchandmatch-api.service";
 import {NgForOf} from "@angular/common";
 import {MatInput} from "@angular/material/input";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-patients-cards',
@@ -17,7 +18,7 @@ export class PatientsCardsComponent {
   @Input() pacientes: Array<PatientEntity> = [];
   filteredPacientes: Array<PatientEntity> = [];
 
-  constructor(private searchandmatchApiService: SearchandmatchApiService) {}
+  constructor(private router: Router,private searchandmatchApiService: SearchandmatchApiService) {}
   ngOnInit(): void {
     this.searchandmatchApiService.getPatients().subscribe((data: any) => {
       this.pacientes = data;
@@ -29,5 +30,8 @@ export class PatientsCardsComponent {
     this.filteredPacientes = this.pacientes.filter(patient =>
       patient.name.toLowerCase().includes(filterValue) || patient.lastName.toLowerCase().includes(filterValue)
     );
+  }
+  onPatientCardClick(): void {
+    this.router.navigate(['/psychologist/appointments']);
   }
 }
