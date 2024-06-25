@@ -1,5 +1,5 @@
 import {Component, inject, OnInit} from '@angular/core';
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {PsychologistApiService} from "../../../accountManagementPsychologist/services/account-management-api.service";
 import {MatDivider} from "@angular/material/divider";
 import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from "@angular/material/card";
@@ -52,7 +52,8 @@ export class PsychologistsScheduleComponent implements OnInit{
     private appointmentManagementApiService: AppointmentManagementApiService,
     public dialog: MatDialog, snackBar: MatSnackBar,
     http: HttpClient,
-    private authService: AuthService)
+    private router: Router, // Add Router here
+  private authService: AuthService)
   {
     this.snackBar = snackBar;
     this.http = http;
@@ -81,18 +82,18 @@ export class PsychologistsScheduleComponent implements OnInit{
     };
 
     this.appointmentManagementApiService.createReservation(reservation).subscribe(
-      () => {
+      (reservationResponse) => {
         this.snackBar.open('Reservado con éxito 🧑‍⚕️✅✅', '', {
           duration: 2000,
           panelClass: ['snackbar-success']
         });
-        console.log(reservation);
+        // Navigate to financial component with reservation details
+        this.router.navigate(['/financial'], { state: { reservation: reservationResponse } });
       },
       error => {
         console.error(error);
       }
-    );
-  }
+    );  }
   ngOnInit(): void {
     const psychologistId = this.route.snapshot.paramMap.get('id');
     if (psychologistId !== null) {

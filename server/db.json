@@ -218,23 +218,6 @@
       "birthday": "1987/09/25"
     }
   ],
-  "finance": [
-    {
-      "id": "1",
-      "name": "Alicia Ramirez Gonzales",
-      "age": 19,
-      "email": "alisongomezqy@hotmail.com",
-      "dni": "758953412",
-      "phone": "+34935789111",
-      "image": "https://github.com/si729-2401-WS51-grupo3/documentation/assets/133830443/f54a926c-c7f1-4f6c-b92e-53c46e8ea295",
-      "date": "2024/05/07",
-      "treatment": "Ansiedad",
-      "appointment": "Primera sesion",
-      "time": "09:00 AM",
-      "doctor": "Romina Caceres",
-      "amount": 70
-    }
-  ],
   "all-appointments": [
     {
       "id": 2,
@@ -379,6 +362,136 @@
       "psychologistId": "5",
       "reservationHour": 14,
       "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "9f2a",
+      "scheduleId": "3",
+      "patientId": "1",
+      "psychologistId": "3",
+      "reservationHour": 12,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "371b",
+      "scheduleId": "3",
+      "patientId": "1",
+      "psychologistId": "3",
+      "reservationHour": 10,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "01ca",
+      "scheduleId": "1",
+      "patientId": "1",
+      "psychologistId": "1",
+      "reservationHour": 9,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "fe3c",
+      "scheduleId": "1",
+      "patientId": "1",
+      "psychologistId": "1",
+      "reservationHour": 9,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "e682",
+      "scheduleId": "3",
+      "patientId": "1",
+      "psychologistId": "3",
+      "reservationHour": 15,
+      "reservationDate": "2024-06-25"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "patientId": "1",
+      "psychologistId": "2",
+      "reservationId": "d544",
+      "amount": 70
+    },
+    {
+      "id": 2,
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationId": "1c2c",
+      "amount": 170
+    },
+    {
+      "id": 3,
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationId": "b4e3",
+      "amount": 80
+    },
+    {
+      "id": 4,
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationId": "79da",
+      "amount": 70
+    },
+    {
+      "id": 5,
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationId": "60ac",
+      "amount": 80
+    },
+    {
+      "id": 6,
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationId": "cfbb",
+      "amount": 70
+    },
+    {
+      "id": 14555,
+      "patientId": "1",
+      "psychologistId": "1",
+      "reservationId": "fe3c",
+      "amount": 3
+    },
+    {
+      "id": 666934,
+      "patientId": "1",
+      "psychologistId": "3",
+      "reservationId": "e682",
+      "amount": 8
+    }
+  ],
+  "financial": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "transactionId": 1
+    },
+    {
+      "id": 1,
+      "patientId": 1,
+      "transactionId": 2
+    },
+    {
+      "id": 1,
+      "patientId": 1,
+      "transactionId": 3
+    },
+    {
+      "id": 1,
+      "patientId": 1,
+      "transactionId": 4
+    },
+    {
+      "id": 1,
+      "patientId": 1,
+      "transactionId": 5
+    },
+    {
+      "id": 1,
+      "patientId": 1,
+      "transactionId": 6
     }
   ]
 }

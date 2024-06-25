@@ -16,12 +16,16 @@ import {
 import {
   PsychologistsScheduleComponent
 } from "./appointmentManagement/components/psychologists-schedule/psychologists-schedule.component";
+import {
+  PyschologistFinancialComponent
+} from "./FinancialManagement/components/pyschologist-financial/pyschologist-financial.component";
 
 export const routes: Routes = [
   //parte de psychologists
   { path: 'psychologist/patients', component: PatientsCardsComponent},
   { path: 'psychologist/appointments', component: AppointmentsCardsComponent},
   { path: 'psychologist/schedule/:id', component:  PsychologistsScheduleComponent},
+  { path: 'financial', component: PyschologistFinancialComponent }, // Define the financial route
   { path: 'psychologist/meetings', component: ReunionespsicologosCardsComponent},
   { path: 'psychologist/settings', component: PsychologistAccount},
 

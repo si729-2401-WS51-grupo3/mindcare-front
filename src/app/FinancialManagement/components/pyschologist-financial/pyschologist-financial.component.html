@@ -1,0 +1,10 @@
+<div>
+  <h2>Detalles de la Reserva</h2>
+  <p>Psicólogo: {{ reservation.psychologistId }}</p>
+  <p>Paciente: {{ reservation.patientId }}</p>
+  <p>Hora de Reserva: {{ reservation.reservationHour }}</p>
+  <p>Fecha de Reserva: {{ reservation.reservationDate }}</p>
+  <label for="amount">Monto:</label>
+  <input type="number" id="amount" [(ngModel)]="amount" />
+  <button (click)="pay()">Pagar</button>
+</div>
