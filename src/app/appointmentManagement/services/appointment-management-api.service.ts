@@ -17,7 +17,7 @@ export class AppointmentManagementApiService {
   getSchedule(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/schedule/${id}`);
   }
-  getReservations(): Observable<any> {
-    return this.http.get(`${this.baseUrl}/all-reservations`);
+  createReservation(reservation: any): Observable<any> {
+    return this.http.post(`${this.baseUrl}/reservations`, reservation);
   }
 }

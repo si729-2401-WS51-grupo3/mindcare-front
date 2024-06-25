@@ -9,7 +9,7 @@
   <div class="card-psychologist-box">
     <mat-card class="psychologist-card">
       <mat-card-header>
-        <img ngSrc="{{psychologist?.photoUrl}}" alt="{{psychologist?.name}} {{psychologist?.lastName}}">
+        <img [src]="psychologist?.photoUrl" alt="Psychologist Photo">
       </mat-card-header>
       <mat-card-content>
         <p><strong>Especialidad: </strong> {{ psychologist?.occupation }}</p>
@@ -21,9 +21,7 @@
   <div class="card-schedule-box">
     <div *ngIf="timeIntervals.length > 0">
       <div  *ngFor="let interval of timeIntervals">
-        <button class="hours-buttons" style="  background-color: rgba(95,168,168,0.56); color: white;" mat-raised-button>{{ interval }}</button>
+        <button class="hours-buttons" style="background-color: rgba(95,168,168,0.56); color: white;" mat-raised-button (click)="onIntervalClick(interval); openDialog()">{{ interval }}</button>
       </div>
     </div>
-  </div>
-</div>
 </div>

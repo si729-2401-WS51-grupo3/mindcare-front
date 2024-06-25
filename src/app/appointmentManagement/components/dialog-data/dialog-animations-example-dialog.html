@@ -1,0 +1,18 @@
+<h2 mat-dialog-title>Reservar cita</h2>
+<mat-dialog-content>
+  Desea reservar una cita en este horario?
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close
+          style="
+          border-radius: 1em;
+          color:white;
+          background-color: rgba(222,58,58,0.81);
+">Cancelar</button>
+
+  <button mat-button mat-dialog-close (click)="onReserveClick()" style="
+          border-radius: 1em;
+          color:white;
+          background-color: rgba(95,168,168,0.56);"
+  >Reservar</button>
+</mat-dialog-actions>

@@ -55,7 +55,6 @@
       "gender": "Masculino",
       "birthday": "1985/08/14",
       "scheduleId": "4"
-
     },
     {
       "id": "5",
@@ -84,7 +83,6 @@
       "gender": "Femenino",
       "birthday": "1982/07/30",
       "scheduleId": "6"
-
     },
     {
       "id": "7",
@@ -99,7 +97,6 @@
       "gender": "Masculino",
       "birthday": "1994/01/18",
       "scheduleId": "7"
-
     }
   ],
   "patients": [
@@ -290,43 +287,6 @@
       "psychologistId": 6
     }
   ],
-  "all-reservations": [
-    {
-      "scheduleId": 1,
-      "patientId": 2,
-      "psychologistId": 1,
-      "reservationHour": 10,
-      "reservationDate": "2024/07/01"
-    },
-    {
-      "scheduleId": 2,
-      "patientId": 3,
-      "psychologistId": 2,
-      "reservationHour": 14,
-      "reservationDate": "2024/07/02"
-    },
-    {
-      "scheduleId": 3,
-      "patientId": 4,
-      "psychologistId": 3,
-      "reservationHour": 9,
-      "reservationDate": "2024/07/03"
-    },
-    {
-      "scheduleId": 4,
-      "patientId": 5,
-      "psychologistId": 4,
-      "reservationHour": 16,
-      "reservationDate": "2024/07/04"
-    },
-    {
-      "scheduleId": 5,
-      "patientId": 6,
-      "psychologistId": 5,
-      "reservationHour": 11,
-      "reservationDate": "2024/07/05"
-    }
-  ],
   "schedule": [
     {
       "id": "1",
@@ -369,6 +329,56 @@
       "psychologistId": 7,
       "startedHour": 8,
       "finishedHour": 12
+    }
+  ],
+  "reservations": [
+    {
+      "id": "d544",
+      "scheduleId": "2",
+      "patientId": "1",
+      "psychologistId": "2",
+      "reservationHour": 10,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "1c2c",
+      "scheduleId": "5",
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationHour": 16,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "b4e3",
+      "scheduleId": "5",
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationHour": 13,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "79da",
+      "scheduleId": "5",
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationHour": 13,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "60ac",
+      "scheduleId": "5",
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationHour": 14,
+      "reservationDate": "2024-06-25"
+    },
+    {
+      "id": "cfbb",
+      "scheduleId": "5",
+      "patientId": "1",
+      "psychologistId": "5",
+      "reservationHour": 14,
+      "reservationDate": "2024-06-25"
     }
   ]
 }
