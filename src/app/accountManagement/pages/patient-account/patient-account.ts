@@ -41,25 +41,19 @@ export class PatientAccount implements OnInit {
       this.patientService.updatePatient(this.patients).subscribe({
         next: (updatedPatient) => {
           console.log('Patient updated successfully', updatedPatient);
-          //Actualiza el objeto patients con la respuesta del servidor
           this.patients = updatedPatient;
         },
         error: (error) => {
           console.error('Error updating patient', error);
-          //Manejar errores aquí, por ejemplo, mostrar un mensaje de error
         }
       });
     }
   }
   saveEdit(field: string): void {
-    // Aquí iría la lógica para guardar los cambios en el servidor
-    // Por ejemplo, podrías llamar a this.patientService.updatePatient(this.patients)
-    this.toggleEdit(field); // Desactiva el modo de edición
+    this.toggleEdit(field);
   }
 
   cancelEdit(field: string): void {
-    // Opcional: Restablecer el valor original si se ha modificado
-    // Por ejemplo, podrías recargar los datos del paciente desde el servidor
-    this.toggleEdit(field); // Desactiva el modo de edición
+    this.toggleEdit(field);
   }
 }
