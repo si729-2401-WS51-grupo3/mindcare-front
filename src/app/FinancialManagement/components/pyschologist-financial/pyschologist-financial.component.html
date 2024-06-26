@@ -1,10 +1,42 @@
-<div>
-  <h2>Detalles de la Reserva</h2>
-  <p>Psicólogo: {{ reservation.psychologistId }}</p>
-  <p>Paciente: {{ reservation.patientId }}</p>
-  <p>Hora de Reserva: {{ reservation.reservationHour }}</p>
-  <p>Fecha de Reserva: {{ reservation.reservationDate }}</p>
-  <label for="amount">Monto:</label>
-  <input type="number" id="amount" [(ngModel)]="amount" />
-  <button (click)="pay()">Pagar</button>
+<div class="psychologist-schedule">
+  <div class="encabezado">
+    <img class="icono-pagina" src="https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b" alt="calendario">
+    <h1 class="tittle">Finanzas</h1>
+  </div>
+  <mat-divider></mat-divider>
+</div>
+<div class="box-general">
+  <div class="financial-container">
+    <div class="box-detalle-reserva">
+      <div class="photo-container">
+        <img class="photo-psychologist" src="https://github.com/aksoonie/mindcare-db.json/assets/134560396/ac0860ec-a6b3-4aa4-adb1-d18c0cfd5876">
+        <div class="box-derecha">
+          <mat-card-subtitle class="mat-subtitle-1">Paciente:</mat-card-subtitle>
+          <br>
+          <mat-card-subtitle class="mat-subtitle-3">{{ patientName }}</mat-card-subtitle>
+        </div>
+      </div>
+      <mat-card-content class="mini-box">
+        <br>
+        <mat-card-subtitle class="mat-subtitle-1">Psicólogo:</mat-card-subtitle>
+        <mat-card-subtitle class="mat-subtitle-2">{{ psychologistName }}</mat-card-subtitle>
+        <br>
+        <br>
+        <mat-card-subtitle class="mat-subtitle-1">Hora de Reserva:</mat-card-subtitle>
+        <mat-card-subtitle class="mat-subtitle-2">{{ reservation.reservationHour }} A.M</mat-card-subtitle>
+        <br>
+        <br>
+        <mat-card-subtitle class="mat-subtitle-1">Fecha de Reserva:</mat-card-subtitle>
+        <mat-card-subtitle class="mat-subtitle-2">{{ reservation.reservationDate }}</mat-card-subtitle>
+        <br>
+        <br>
+        <mat-card-subtitle class="mat-subtitle-1">Monto:</mat-card-subtitle>
+        <mat-card-subtitle class="mat-subtitle-2">{{ amount }}</mat-card-subtitle>
+      </mat-card-content>
+    </div>
+  </div>
+  <div class="botones">
+    <button class="hours-buttons" (click)="pay()">Pagar</button>
+    <button class="hours-buttons" (click)="onCancel()">Cancelar</button>
+  </div>
 </div>

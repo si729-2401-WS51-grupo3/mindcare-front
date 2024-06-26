@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.financial-container {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+  padding: 5%;
+  color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  margin-left: 5%;
+  height: auto;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  border-color: #3B6767;
+  border-style: solid;
+
+}
+.icono-pagina {
+  justify-self: left;
+  height: 50px;
+}
+.encabezado {
+  margin-top:2em;
+  margin-bottom: 1.5em;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  justify-content: center;
+}
+.tittle {
+  font-family: "Nunito", sans-serif;
+  margin-top: 0.3em;
+  margin-left: 0.5em;
+  font-size: xx-large;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: auto;
+}
+
+mat-divider {
+  width: 85%;
+  margin: 1.5em auto;
+}
+
+.hours-buttons{
+  padding: 2%;
+  width: auto;
+  margin-left: 2em;
+  border-radius: 5em;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  border-color: #7baeae;
+  background-color: #7baeae;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.24);
+}
+.hours-buttons:hover{
+  transform: scale(1.1);
+  background-color: #437070;
+}
+.photo-psychologist{
+  margin-left: 20%;
+  width: 75px;
+  height: 77px;
+  border-radius: 50px;
+}
+.botones{
+  margin-top: 16px;
+  margin-left: 39%;
+  justify-content: center;
+  align-content: center;
+}
+.box-derecha{
+  margin-top:7px;
+  height: 100%;
+  width: 27%;
+  margin-left: 4%;
+}
+.photo-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-detalle-reserva{
+  width: 70%;
+}
+.mat-subtitle-1{
+  font-size: 165%;
+  font-family: 'Nunito', sans-serif;
+  color: #6a9e9e;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.mat-subtitle-3{
+  margin-bottom: 20px;
+  margin-left: 4%;
+  font-size: 130%;
+  font-family: 'Nunito', sans-serif;
+}
+.mat-subtitle-2{
+  margin-left: 4%;
+  font-size: 130%;
+  font-family: 'Nunito', sans-serif;
+}
