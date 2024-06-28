@@ -6,16 +6,15 @@ import {PsychologistInfoApiService} from "../../services/psychologist-info-api.s
 import {NgForOf} from "@angular/common";
 import {PatientNotesComponent} from "../../../patientNotes/components/patientNotes.component";
 import {PatientDocComponent} from "../../../patientDoc/components/patientDoc.component";
-import {PsychologistsScheduleComponent} from "../../../../appointmentManagement/components/psychologists-schedule/psychologists-schedule.component";
 
 @Component({
   selector: 'app-patient-card',
   standalone: true,
-  imports: [MatCardModule, MatButtonModule, NgForOf, PatientNotesComponent, PatientDocComponent, PsychologistsScheduleComponent],
-  templateUrl: './patient-card.component.html',
-  styleUrl: './patient-card.component.css'
+  imports: [MatCardModule, MatButtonModule, NgForOf, PatientNotesComponent, PatientDocComponent],
+  templateUrl: './patient-card-patient.component.html',
+  styleUrl: './patient-card-patient.component.css'
 })
-export class PatientCardComponent implements OnInit {
+export class PatientCardPatientComponent implements OnInit {
   psychologists: Array<Psychologist> = [];
 
   constructor(private psychologistInfoApiService: PsychologistInfoApiService) {}

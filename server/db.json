@@ -402,28 +402,65 @@
       "psychologistId": "4",
       "reservationHour": 15,
       "reservationDate": "2024-06-26"
+    },
+    {
+      "id": "a510",
+      "scheduleId": "2",
+      "patientId": "1",
+      "psychologistId": "2",
+      "reservationHour": 9,
+      "reservationDate": "2024-06-26"
+    },
+    {
+      "id": "ff6a",
+      "scheduleId": "1",
+      "patientId": "1",
+      "psychologistId": "1",
+      "reservationHour": 8,
+      "reservationDate": "2024-06-26"
     }
   ],
   "transactions": [
     {
-      "id": 988190,
+      "id": "988190",
       "patientId": "1",
       "psychologistId": "2",
       "reservationId": "e119",
       "amount": 90
     },
     {
-      "id": 849975,
+      "id": "849975",
       "patientId": "1",
       "psychologistId": "2",
       "reservationId": "fec7",
       "amount": 90
     },
     {
-      "id": 618265,
+      "id": "618265",
       "patientId": "1",
       "psychologistId": "2",
       "reservationId": "9f74",
+      "amount": 90
+    },
+    {
+      "id": "142352",
+      "patientId": "1",
+      "psychologistId": "4",
+      "reservationId": "cc9b",
+      "amount": 90
+    },
+    {
+      "id": 598404,
+      "patientId": "1",
+      "psychologistId": "1",
+      "reservationId": "c7d1",
+      "amount": 90
+    },
+    {
+      "id": 203921,
+      "patientId": "1",
+      "psychologistId": "1",
+      "reservationId": "c7d1",
       "amount": 90
     }
   ],

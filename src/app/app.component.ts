@@ -23,6 +23,8 @@ export class AppComponent {
     { path: '/psychologist/appointments', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b'},
     { path: '/psychologist/meetings', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/e7d82f4a-d3a2-45d4-ac34-a0417b2bb4cc'},
     { path: '/psychologist/settings', title:'Patients Cards', icon: 'https://github.com/aksoonie/mindcare-db/assets/134560396/175bbaf6-db14-4ddb-af89-71b37d99e401'},
+    { path: '/psychologist/notes', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/af426a68-1711-4a9a-89db-71f0d59ffbe7'},
+
     //parte de patients
     { path: '/patient/psychologists', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/88cc1678-c496-4575-ae36-de5f07c27265'},
     { path: '/patient/calendar', title:'Psychologists Cards', icon:'https://github.com/aksoonie/mindcare-db/assets/134560396/76982bf3-a8b0-4592-855a-0ca4ad6c242b'},

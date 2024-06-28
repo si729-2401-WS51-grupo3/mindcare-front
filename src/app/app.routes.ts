@@ -6,6 +6,7 @@ import {PatientAccount} from "./accountManagement/pages/patient-account/patient-
 import {ReunionesCardsComponent} from "./therapyManagement/components/reuniones-cards/reuniones-cards.component";
 import {ReunionespsicologosCardsComponent} from "./therapyManagement/components/reunionespsicologos-cards/reunionespsicologos-cards.component";
 import {PatientCardComponent} from "./TherapyDesign/patientCard/components/patient-card/patient-card.component";
+import {PatientCardPatientComponent} from "./TherapyDesign/patientCardPatient/components/patient-card/patient-card-patient.component";
 import {PsychologistAccount} from "./accountManagementPsychologist/pages/psychologist-account/psychologist-account.component";
 import {
   AppointmentsCardsComponent
@@ -25,6 +26,7 @@ export const routes: Routes = [
   { path: 'psychologist/patients', component: PatientsCardsComponent},
   { path: 'psychologist/appointments', component: AppointmentsCardsComponent},
   { path: 'psychologist/schedule/:id', component:  PsychologistsScheduleComponent},
+  { path: 'psychologist/notes', component:  PatientCardPatientComponent},
   { path: 'financial', component: PyschologistFinancialComponent }, // Define the financial route
   { path: 'psychologist/meetings', component: ReunionespsicologosCardsComponent},
   { path: 'psychologist/settings', component: PsychologistAccount},
