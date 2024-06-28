@@ -3,9 +3,9 @@ import {MatCard, MatCardModule} from "@angular/material/card";
 import {NgForOf} from "@angular/common";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatInput} from "@angular/material/input";
-import {PatientEntity} from "../../model/patient.entity";
+import {Patient} from "../../model/patient.entity";
 import {SearchandmatchApiService} from "../../services/searchandmatch-api.service";
-import {PsychologistEntity} from "../../model/psychologist.entity";
+import {Psychologist} from "../../model/psychologist.entity";
 @Component({
   selector: 'app-psychologist-cards',
   standalone: true,
@@ -14,8 +14,8 @@ import {PsychologistEntity} from "../../model/psychologist.entity";
   styleUrl: './psychologist-cards.component.css'
 })
 export class PsychologistCardsComponent {
-  @Input() psychologists: Array<PsychologistEntity> = [];
-  filteredPsychologists: Array<PsychologistEntity> = [];
+  @Input() psychologists: Array<Psychologist> = [];
+  filteredPsychologists: Array<Psychologist> = [];
 
   constructor(private searchandmatchApiService: SearchandmatchApiService) {}
   ngOnInit(): void {

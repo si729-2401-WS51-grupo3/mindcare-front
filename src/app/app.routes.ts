@@ -6,6 +6,8 @@ import {PatientsCardsComponent} from "./searchAndMatch/pages/patients-cards/pati
 import {PsychologistCardsComponent} from "./searchAndMatch/pages/psychologist-cards/psychologist-cards.component";
 import {PatientAccount} from "./accountManagement/pages/patient-account/patient-account";
 import {PatientCardComponent} from "./TherapyDesign/patientCard/components/patient-card/patient-card.component";
+import {SignInComponent} from "./iam/pages/sign-in/sign-in.component";
+import {SignUpComponent} from "./iam/pages/sign-up/sign-up.component";
 
 export const routes: Routes = [
   //parte de psychologists
@@ -19,6 +21,10 @@ export const routes: Routes = [
   { path: 'patient/meetings', component:  PatientAppointmentViewComponent},
   { path: 'patient/notes', component:  PatientCardComponent},
   { path: 'patient/settings', component:  PatientAccount},
+
+  { path: 'sign-in', component: SignInComponent },
+  { path: 'sign-up', component: SignUpComponent},
+
   { path: '', redirectTo: 'psychologist/patients', pathMatch: 'full' },
-  { path: '**', component: PageNotFoundComponent }
+  { path: '**', component: PageNotFoundComponent },
 ];

@@ -1,7 +1,7 @@
 import {Component, Input} from '@angular/core';
 import {MatCard, MatCardHeader, MatCardModule} from "@angular/material/card";
 import {MatDivider, MatDividerModule} from "@angular/material/divider";
-import {PatientEntity} from "../../model/patient.entity";
+import {Patient} from "../../model/patient.entity";
 import {SearchandmatchApiService} from "../../services/searchandmatch-api.service";
 import {NgForOf} from "@angular/common";
 import {MatInput} from "@angular/material/input";
@@ -14,8 +14,8 @@ import {MatInput} from "@angular/material/input";
   styleUrl: './patients-cards.component.css'
 })
 export class PatientsCardsComponent {
-  @Input() pacientes: Array<PatientEntity> = [];
-  filteredPacientes: Array<PatientEntity> = [];
+  @Input() pacientes: Array<Patient> = [];
+  filteredPacientes: Array<Patient> = [];
 
   constructor(private searchandmatchApiService: SearchandmatchApiService) {}
   ngOnInit(): void {

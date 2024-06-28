@@ -1,8 +1,6 @@
-
 <mat-toolbar style="background-color: white;" class="toolbar">
   <ng-container *ngFor="let option of options">
     <img mat-button [routerLink]="option.path" [src]="option.icon" alt="logo">
   </ng-container>
 </mat-toolbar>
 <router-outlet></router-outlet>
-
